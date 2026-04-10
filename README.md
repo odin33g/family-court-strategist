@@ -2,7 +2,7 @@
 
 **A free, open-source legal intelligence toolkit for parents navigating family court.**
 
-Built by a father who spent 18 months in the system and realised the tools to fight properly didn't exist — so he built them.
+Built by **Kyle Fischer** — a father who spent 18 months in the system and realised the tools to fight properly didn't exist. So he built them and gave them away for free.
 
 ---
 
@@ -170,12 +170,18 @@ This is a case organisation and evidence analysis tool. **It is not legal advice
 
 ## The Story
 
-I built this because I had no choice. I was a father in the Federal Circuit and Family Court with a solicitor who recommended surrender, a system that buried evidence of alienation, and a settlement I was pressured into in 48 hours.
+My name is **Kyle Fischer**. I built this because I had no choice.
 
-After the dust settled, I started organising everything — not just for my own case, but because I realised the tools to do this properly didn't exist. The legal system expects you to trust your lawyer and hope for the best. This toolkit exists for the parents who want to do more than hope.
+I was a father in the Federal Circuit and Family Court of Australia with a solicitor who recommended surrender, a system that buried evidence of alienation, and a settlement I was pressured into signing in 48 hours.
 
-If this helps one father stay in his kid's life, it was worth building.
+After the dust settled, I started organising everything — not just for my own case, but because I realised the tools to fight properly didn't exist. The legal system expects you to trust your lawyer and hope for the best. This toolkit exists for the parents who refuse to do that.
+
+The family court system is broken. Lawyers get paid whether you win or lose. Reports bury what matters. And parents — usually fathers — get told to "accept the process" while their relationship with their child is destroyed.
+
+I'm not accepting it. And if you're reading this, neither should you.
+
+If this helps one parent stay in their kid's life, it was worth building. If it helps expose the system for what it is, even better.
 
 ---
 
-*Built by a father. For parents. Open source forever.*
+*Built by [Kyle Fischer](https://github.com/odin33g). For parents. Open source forever.*
