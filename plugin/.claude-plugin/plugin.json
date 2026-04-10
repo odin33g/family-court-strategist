@@ -1,0 +1,9 @@
+{
+  "name": "family-court-strategist",
+  "version": "0.1.0",
+  "description": "A legal intelligence toolkit for parents navigating family court — build evidence vaults, analyse documents forensically, track lawyer accountability, and develop case strategy",
+  "author": {
+    "name": "FISHCLAW"
+  },
+  "keywords": ["family-court", "legal", "evidence", "parenting", "strategy", "accountability"]
+}
