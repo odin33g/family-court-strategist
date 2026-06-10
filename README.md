@@ -103,6 +103,18 @@ Don't want to download anything? Open [THE-PROMPT.md](THE-PROMPT.md), copy the e
 5. Say **"set up my case"** — Claude will build your entire vault and walk you through it
 6. Upload any document and say **"analyse this"** — Claude runs the full forensic protocol
 
+### Option 3: The Local Web App (beta — a nicer view than Obsidian)
+
+Prefer software to markdown? The toolkit now ships a **local web app** that renders your vault as a polished dashboard in your browser. It runs entirely on your computer — no accounts, no uploads, no internet — and in this first version it's **read-only** (it never changes your files).
+
+```bash
+cd app
+node server.js                 # see a bundled sample case
+node server.js /path/to/vault  # see your own vault
+```
+
+Requires [Node.js](https://nodejs.org) 18+. Details in [app/README.md](app/README.md).
+
 ---
 
 ## The Methodology

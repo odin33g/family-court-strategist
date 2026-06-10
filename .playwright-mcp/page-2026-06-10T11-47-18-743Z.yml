@@ -1,0 +1,144 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - generic [ref=e8]: StrategistCase workspace
+    - generic [ref=e9] [cursor=pointer]:
+      - generic [ref=e10]: Current matter
+      - generic [ref=e11]:
+        - generic [ref=e12]: sample-case
+        - img [ref=e13]
+    - generic [ref=e15]: Overview
+    - generic [ref=e16] [cursor=pointer]:
+      - img [ref=e17]
+      - text: Dashboard
+    - generic [ref=e22] [cursor=pointer]:
+      - img [ref=e23]
+      - text: Timeline
+      - generic [ref=e26]: "5"
+    - generic [ref=e27] [cursor=pointer]:
+      - img [ref=e28]
+      - text: Evidence Matrix
+      - generic [ref=e31]: "0"
+    - generic [ref=e32] [cursor=pointer]:
+      - img [ref=e33]
+      - text: Patterns
+      - generic [ref=e35]: "1"
+    - generic [ref=e36] [cursor=pointer]:
+      - img [ref=e37]
+      - text: People
+      - generic [ref=e40]: "2"
+    - generic [ref=e41]: Build
+    - generic [ref=e42] [cursor=pointer]:
+      - img [ref=e43]
+      - text: Documents
+    - generic [ref=e46] [cursor=pointer]:
+      - img [ref=e47]
+      - text: Legal Research
+    - generic [ref=e49]: Local · nothing leaves this device
+  - main [ref=e51]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]: Dashboard · Federal Circuit and Family Court of Australia
+        - heading "Case overview" [level=1] [ref=e55]
+      - generic [ref=e56]:
+        - img [ref=e57]
+        - text: Search the vault…
+      - button "Ask Claude" [ref=e60] [cursor=pointer]:
+        - img [ref=e61]
+        - text: Ask
+        - generic [ref=e63]: Claude
+    - generic [ref=e64]:
+      - img [ref=e65]
+      - generic [ref=e68]: Sample case loaded. This is fictional demo data. Point the app at your own vault to see your matter — nothing is ever uploaded.
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - img [ref=e73]
+            - text: Documents analysed
+          - generic [ref=e75]: "2"
+          - generic [ref=e76]: "type: legal"
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - text: Open contradictions
+          - generic [ref=e81]: "1"
+          - generic [ref=e82]: flagged in frontmatter
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - img [ref=e85]
+            - text: Patterns tracked
+          - generic [ref=e87]: "1"
+          - generic [ref=e88]: 3+ instances = court-ready
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - img [ref=e91]
+            - text: Timeline events
+          - generic [ref=e94]: "5"
+          - generic [ref=e95]: dated & identified
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - heading "Evidence Matrix — key claims" [level=2] [ref=e99]
+            - generic [ref=e100] [cursor=pointer]: Open all →
+          - table [ref=e102]:
+            - rowgroup [ref=e103]:
+              - row "Claim Status Strength" [ref=e104]:
+                - columnheader "Claim" [ref=e105]
+                - columnheader "Status" [ref=e106]
+                - columnheader "Strength" [ref=e107]
+            - rowgroup [ref=e108]:
+              - row "Evidence matrix parsing arrives in v2. For now, edit EVIDENCE-MATRIX.md in your vault." [ref=e109]:
+                - cell "Evidence matrix parsing arrives in v2. For now, edit EVIDENCE-MATRIX.md in your vault." [ref=e110]
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - heading "Flagged pattern" [level=2] [ref=e114]
+              - generic [ref=e115] [cursor=pointer]: View
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118]: Contact obstruction
+                - generic [ref=e119]: tracked
+              - generic [ref=e120]: Log at least 3 dated instances to make this court-ready.
+              - generic [ref=e121]: Patterns become compelling at 3+ instances — two is coincidence, three is a pattern.
+          - generic [ref=e122]:
+            - heading "Case pillars" [level=2] [ref=e124]
+            - generic [ref=e125]:
+              - generic [ref=e127]:
+                - generic [ref=e128]: Child's best interests
+                - generic [ref=e129]: Build
+              - generic [ref=e133]:
+                - generic [ref=e134]: Credibility contrast
+                - generic [ref=e135]: Build
+              - generic [ref=e139]:
+                - generic [ref=e140]: System accountability
+                - generic [ref=e141]: Build
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - heading "Recent timeline" [level=2] [ref=e146]
+          - generic [ref=e147] [cursor=pointer]: Open full timeline →
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]: 04/02
+            - generic [ref=e153]: Notice of risk filed — six days before interim mentionincident
+          - generic [ref=e154]:
+            - generic [ref=e155]: 03/26
+            - generic [ref=e157]: No response to three changeover messagescommunication
+          - generic [ref=e158]:
+            - generic [ref=e159]: 03/19
+            - generic [ref=e161]: Changeover refused — "child unwell"incident
+          - generic [ref=e162]:
+            - generic [ref=e163]: 03/14
+            - generic [ref=e165]: Family report filed — recommends therapy and graduated timelegal
+          - generic [ref=e166]:
+            - generic [ref=e167]: 03/08
+            - generic [ref=e169]: Interim orders made — therapy orderedlegal
+      - generic [ref=e188]:
+        - heading "Document Studio" [level=2] [ref=e189]
+        - paragraph [ref=e190]:
+          - text: Turn this evidence into a court-ready chronology, an evidence summary, or a solicitor letter — proper citations, clean typography, exported as PDF.
+          - emphasis [ref=e191]: (Coming in v2.)
+        - generic [ref=e192] [cursor=pointer]:
+          - img [ref=e193]
+          - text: Generate chronology PDF
