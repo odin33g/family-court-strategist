@@ -152,19 +152,21 @@ Include document-specific guidance for: affidavits, expert reports, solicitor le
 
 **analysis/COINCIDENCE-MAP.md** — Table for timing alignments: trigger event, response event, gap, coincidence or pattern, evidence links. Section for recurring sequences with interpretation. Key questions to ask about each pattern.
 
-**legal-research/INDEX.md** — Pre-loaded with the relevant legal framework for my jurisdiction. If Australian, include:
-- Best Interests Test (s60CC) with primary and additional considerations explained in plain language
-- Equal Shared Parental Responsibility (s61DA) and how false allegations rebut it
+**legal-research/INDEX.md** — Pre-loaded with the relevant legal framework for my jurisdiction, CURRENT as at today's date — verify the law before writing it down, do not rely on memory of older law. If Australian, the framework must reflect the Family Law Amendment Act 2023 (commenced 6 May 2024) and Family Law Amendment Act 2024 (commenced 10 June 2025), and include:
+- The Best Interests Test (s60CC) as amended — the six general considerations (safety first, including s60CC(2A) family violence history; child's views and what shaped them; the child's needs; each carer's capacity; benefit of safe relationships with both parents; anything else relevant), explained in plain language
+- Parental responsibility after the 2024 reforms: the s61DA presumption of equal shared parental responsibility and the s65DAA equal-time pathway were REPEALED — explain the current framework (s61CA, s61D, s61DAA joint decision-making) and warn me never to cite the repealed provisions
 - Difference between parental responsibility and time
-- Family violence definitions and what AVOs/DVOs mean in court
-- Rice v Asplund variation test: what counts as significant change, special arguments for consent orders
-- Key case law: Rice v Asplund, CDJ v VAJ, McCall & Clark, Maluka & Maluka, Goode & Goode, Mazorski & Albright — each with the rule, why it matters, and when to use it
+- Family violence definitions (s4AB, including the expanded economic abuse examples from June 2025) and what AVOs/DVOs mean in court
+- Varying final orders under s65DAAA (the codified Rice v Asplund test): what counts as significant change, the Radecki & Radecki [2024] requirement for findings of fact, special arguments for consent orders
+- Key case law: Rice v Asplund, Radecki & Radecki, CDJ v VAJ, McCall & Clark, Maluka & Maluka — each with the rule, why it matters, and when to use it, flagging any case that relied on now-repealed provisions
 - Costs (s117) — when the court can order costs against a party
-- Quick reference table of key statutory sections
-- How alienation is captured through existing legislation (s60CC(3)(c), s60CC(3)(a), s60CC(2)(a))
-- What to look for in expert reports regarding alienation
+- Harmful proceedings orders (Part XIB) and the publication restrictions (Part XIVB, which replaced s121) — including the warning that posting about my case on social media can be an offence
+- Quick reference table of key statutory sections (current numbering)
+- How relationship interference is captured through existing legislation (s60CC(2)(e), s60CC(2)(b), s60CC(2)(d)) — note that courts are cautious about the "parental alienation" label, so document behaviours with evidence rather than leading with the label
+- What to look for in expert reports regarding influence on the child and unimplemented recommendations
+- A "law current as at [date]" stamp at the top
 
-If I'm NOT in Australia, research and provide the equivalent legal framework for my jurisdiction.
+If I'm NOT in Australia, research and provide the equivalent CURRENT legal framework for my jurisdiction.
 
 **People profiles** — Create a profile in /people/ for: me, the other parent, and each child. Pre-fill from my answers.
 
