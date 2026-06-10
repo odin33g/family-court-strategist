@@ -23,7 +23,7 @@ Before we get into setup, here's what each piece of the toolkit does for you in 
 | **The evidence matrix** | A blank tracker you fill in | Lets you map every allegation against every piece of evidence so you can see at a glance what's proven, disputed, or missing |
 | **The contradiction engine** | A structured analysis sheet | Gives you a way to find where the other party's story changes between documents or conflicts with professional findings |
 | **The 8 templates** | Fill-in-the-blank formats for each document type | You don't have to figure out what information to capture — incidents, communications, affidavits, court orders, patterns, legal letters, strategy notes, person profiles are all pre-structured |
-| **The dashboard** | Auto-updating queries across your vault | As you add documents, patterns surface automatically — contact blocking, alienation indicators, system failures all show up in one view |
+| **The dashboard** | Auto-updating queries across your vault | As you add documents, patterns surface automatically — contact blocking, relationship interference indicators, system failures all show up in one view |
 | **The Claude plugin** | AI assistant training file | Turns Claude from a general assistant into something that understands family court methodology and can analyse documents, find contradictions, and build strategy with you |
 
 ### How it works without the AI (Vault only)

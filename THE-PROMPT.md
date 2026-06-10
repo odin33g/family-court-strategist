@@ -109,9 +109,9 @@ Once you have my answers, create the following folder structure in my workspace 
 
 **PEOPLE-MAP.md** — Pre-filled with the people from my answers. Tables for: core parties, legal professionals, expert/service providers, family members. Include sections for "People Never Assessed" (anyone living with the child who wasn't interviewed by the family report writer) and "Conflicts of Interest."
 
-**DASHBOARD.md** — Dataview queries for: master timeline, contact events, alienation indicators, system failures, legal representation tracking, communications log, missing evidence, people index, and costs tracker.
+**DASHBOARD.md** — Dataview queries for: master timeline, contact events, relationship interference indicators, system failures, legal representation tracking, communications log, missing evidence, people index, and costs tracker.
 
-**patterns.md** — A catalogue of common patterns in family court cases with blank tracking tables. Include: contact blocking, communication avoidance, gatekeeping, alienation indicators (denigration, loyalty conflicts, rejection without cause, programming), allegation timing, escalation cycles, settlement pressure, evidence avoidance, unfollowed recommendations, incomplete assessments, institutional non-engagement, conflicts of interest. For each pattern: what it is, how to spot it, minimum 3 instances to be compelling.
+**patterns.md** — A catalogue of common patterns in family court cases with blank tracking tables. Include: contact blocking, communication avoidance, gatekeeping, relationship interference indicators — often called "alienation" (denigration, loyalty conflicts, rejection without cause, programming) with a note that courts are cautious about the label so the behaviours must be tracked with dates and sources, allegation timing, escalation cycles, settlement pressure, evidence avoidance, unfollowed recommendations, incomplete assessments, institutional non-engagement, conflicts of interest. For each pattern: what it is, how to spot it, minimum 3 instances to be compelling.
 
 **_system/analysis-framework.md** — The 13-point forensic analysis protocol:
 1. FACTS — Only verifiable facts, no assumptions
@@ -146,7 +146,7 @@ Include document-specific guidance for: affidavits, expert reports, solicitor le
 - strategy_note.md: Objective, current position, evidence table, risks, steps, questions for lawyer, deadline
 - person_profile.md: Role, key information, key statements with attribution, actions taken, concerns, assessment
 
-**analysis/EVIDENCE-MATRIX.md** — Tables for tracking: allegations against you, contact/access issues, alienation indicators, parenting capacity, system/process failures, legal representation failures. Each table has columns: claim, source, professional findings, independent evidence, contradictions, status (PROVEN/DISPUTED/UNRESOLVED/DISPROVEN), strength rating.
+**analysis/EVIDENCE-MATRIX.md** — Tables for tracking: allegations against you, contact/access issues, relationship interference indicators, parenting capacity, system/process failures, legal representation failures. Each table has columns: claim, source, professional findings, independent evidence, contradictions, status (PROVEN/DISPUTED/UNRESOLVED/DISPROVEN), strength rating.
 
 **analysis/CROSS-DOCUMENT-ANALYSIS.md** — Tables for: timeline conflicts, statement evolution, professional opinion conflicts, internal contradictions, credibility vulnerabilities, evidence gaps.
 

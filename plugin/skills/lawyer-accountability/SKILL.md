@@ -75,7 +75,7 @@ Flag any of these to the user:
 - Billing for work that wasn't done or didn't advance the case
 - Not explaining the implications of consent orders
 - Failing to follow up on expert recommendations
-- Not raising alienation when evidence supports it
+- Not raising relationship interference (contact obstruction, influence on the child's views) when documented evidence supports it
 
 ## For Self-Represented Parents
 
