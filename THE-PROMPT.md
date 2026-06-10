@@ -68,7 +68,8 @@ Once you have my answers, create the following folder structure in my workspace 
 ├── patterns.md
 ├── _system/
 │   ├── analysis-framework.md
-│   └── attribution-standards.md
+│   ├── attribution-standards.md
+│   └── security-and-privacy.md
 ├── _templates/
 │   ├── incident.md
 │   ├── communication.md
@@ -135,6 +136,8 @@ Include the YAML frontmatter standard every document must use: date, type, event
 Include document-specific guidance for: affidavits, expert reports, solicitor letters, court orders, and communications.
 
 **_system/attribution-standards.md** — The rule: every quote must include WHO said it, TO WHOM, PER WHOSE ACCOUNT, and PARAGRAPH/PAGE REFERENCE. Include format examples for: direct quotes, child's statements, professional observations, disputed accounts. Include special cases for: conflicting accounts (present both, label each, flag with warning), second-hand quotes (note the chain), when speaker is the document author. Include a table of common errors and why they're dangerous. Include an audit protocol and a blank corrections log.
+
+**_system/security-and-privacy.md** — Practical protection guidance: full-disk encryption, fresh passwords (email first), deliberate cloud-sync choices, backups, keeping the vault away from shared devices and from the children, the publication offence (Part XIVB — never post case material online, including social media groups), state-by-state caution on covert recordings, obtaining documents lawfully, and safe AI use with case material. Tell me to read this file FIRST, before adding any documents.
 
 **_templates/** — 8 templates, each with YAML frontmatter and structured sections:
 - incident.md: What happened, evidence table with strength ratings, impact on child, legal significance, follow-up
