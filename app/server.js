@@ -14,11 +14,14 @@ const TYPES = {
 };
 
 export function createServer(vaultDir) {
+  // vaultDir may be a string (fixed) or a function returning the current path,
+  // so a host (e.g. the desktop app) can switch vaults without recreating the server.
+  const resolveVault = typeof vaultDir === "function" ? vaultDir : () => vaultDir;
   return httpCreate(async (req, res) => {
     try {
       const url = new URL(req.url, "http://127.0.0.1");
       if (url.pathname === "/api/case") {
-        const model = buildCaseModel(vaultDir);
+        const model = buildCaseModel(resolveVault());
         res.writeHead(200, { "content-type": "application/json" });
         res.end(JSON.stringify(model));
         return;

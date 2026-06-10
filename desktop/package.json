@@ -1,0 +1,26 @@
+{
+  "name": "family-court-strategist-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Desktop wrapper for the Family Court Strategist local workspace. Everything stays on the user's machine.",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  },
+  "build": {
+    "appId": "org.familycourtstrategist.app",
+    "productName": "Family Court Strategist",
+    "files": ["main.cjs"],
+    "extraResources": [
+      { "from": "../app", "to": "app", "filter": ["**/*", "!tests/**", "!**/*.test.js"] },
+      { "from": "../sample-case", "to": "sample-case" }
+    ],
+    "mac": { "category": "public.app-category.productivity", "target": "dmg" },
+    "win": { "target": "nsis" },
+    "linux": { "target": "AppImage" }
+  }
+}
