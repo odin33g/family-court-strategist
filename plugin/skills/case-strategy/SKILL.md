@@ -8,7 +8,7 @@ description: >
   my variation application", or needs strategic guidance on their family
   court matter.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Case Strategy
@@ -70,7 +70,7 @@ Be honest about:
 - Cross-examination points for the other party's evidence
 - Questions the judge might ask
 
-**For a Variation Application (Rice v Asplund):**
+**For a Variation Application (s65DAAA — Rice v Asplund codified):**
 - What has changed since the original orders
 - Evidence that the change is material
 - Evidence that the original orders are no longer in the child's best interests

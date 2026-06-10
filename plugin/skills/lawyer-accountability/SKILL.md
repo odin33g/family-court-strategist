@@ -7,7 +7,7 @@ description: >
   properly represented", "review the settlement process", "check my legal bills",
   or has concerns about their solicitor's conduct or advice.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Lawyer Accountability

@@ -58,8 +58,9 @@ A ready-to-go folder structure that turns Obsidian (a free note-taking app) into
 1. **Download Obsidian** from [obsidian.md](https://obsidian.md) (free for personal use)
 2. Copy the `obsidian-vault` folder to your computer and rename it to your case name
 3. Open Obsidian → "Open folder as vault" → select your folder
-4. Install the **Dataview** community plugin (Settings → Community plugins → Browse → search "Dataview" → Install → Enable)
+4. Install the **Dataview** community plugin (Settings → Community plugins → Browse → search "Dataview" → Install → Enable). *Newer versions of Obsidian also include a built-in feature called **Bases** that can build similar live tables from your notes' properties — the included dashboard uses Dataview, but Bases is there if you prefer to stay on core features.*
 5. Open `HOME.md` — this is your starting point
+6. Read `_system/security-and-privacy.md` before adding any documents — five minutes of setup (disk encryption, passwords, sync choices) protects the most sensitive folder on your computer
 
 ### First Steps
 
@@ -73,7 +74,7 @@ A ready-to-go folder structure that turns Obsidian (a free note-taking app) into
 
 | Folder | Purpose |
 |--------|---------|
-| `_system/` | Analysis framework (13-point protocol) and attribution standards |
+| `_system/` | Analysis framework (13-point protocol), attribution standards, and the security & privacy guide |
 | `_templates/` | 8 templates for different document types |
 | `analysis/` | Evidence matrix, contradiction engine, coincidence map |
 | `legal-documents/` | Court filings, affidavits, reports, orders |
@@ -142,9 +143,11 @@ This system helps you:
 
 - This is a case organisation and analysis tool, not legal advice
 - Always seek independent legal advice for major decisions
-- Based on Australian family law but the methodology works in any jurisdiction
+- Based on Australian family law as amended (including the May 2024 and June 2025 reforms; legal content current as at June 2026) — the methodology works in any jurisdiction
+- Family law changes — verify section references against the current Act before relying on them in court
+- Never publish case material online (including social media groups) — in Australia this can be an offence
 - The system is only as strong as the evidence you put into it
 
 ---
 
-*Built by a father. For fathers. And any parent who refuses to be a passenger in their own case.*
+*Built by a father. For every parent who refuses to be a passenger in their own case.*

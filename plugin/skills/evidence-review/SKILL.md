@@ -7,7 +7,7 @@ description: >
   "update the evidence matrix", "what am I missing", "analyse my whole case",
   or wants a strategic overview of their evidence position.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Evidence Review

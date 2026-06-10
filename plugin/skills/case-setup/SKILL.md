@@ -6,7 +6,7 @@ description: >
   "help me build a case", "create my evidence vault", or is beginning a new
   family court matter and needs structure.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Case Setup
