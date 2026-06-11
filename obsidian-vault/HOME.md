@@ -6,6 +6,7 @@
 
 ## Quick Start
 
+0. Read [[_system/security-and-privacy|Security & Privacy]] — five minutes of setup protects everything below
 1. Fill in [[CASE-DETAILS]] with your case basics
 2. Add people to the [[PEOPLE-MAP]] and create profiles in `/people/`
 3. Start uploading documents to `/legal-documents/` and analysing them
@@ -39,6 +40,7 @@
 - [[legal-research/INDEX|Legal Research]] — Case law and statutory references
 - [[_system/analysis-framework|Analysis Framework]] — 13-point forensic protocol
 - [[_system/attribution-standards|Attribution Standards]] — How to record quotes accurately
+- [[_system/security-and-privacy|Security & Privacy]] — Protect the vault, the case, and the child (read this early)
 
 ---
 

@@ -1,177 +1,223 @@
 ---
 type: index
+jurisdiction: Australia
+law_current_as_at: 2026-06
 ---
 
 # Legal Research
 
-> Key legislation, legal tests, and case law you need to know. This section comes pre-loaded with the Australian legal framework — you don't need to research this yourself. If you're in another jurisdiction, the principles are similar but the specific sections will differ.
+> Key legislation, legal tests, and case law you need to know. This section comes pre-loaded with the **Australian** legal framework — you don't need to research this yourself. If you're in another jurisdiction, the analytical methodology works the same but the specific laws differ; see the contributor note at the bottom.
+
+> **⚠️ Law current as at June 2026.** Family law changes. Before relying on any section reference in a court document, verify it against the current Act at [legislation.gov.au](https://www.legislation.gov.au) or ask your AI assistant to check for amendments. The law below reflects the major reforms that commenced **6 May 2024** and **10 June 2025**.
 
 ---
 
-## The Family Law Act 1975 (Cth) — What Matters For Your Case
+## The 2024–2025 Reforms — Read This First
 
-### The Best Interests Test (Section 60CC)
+The Family Law Act 1975 (Cth) was substantially rewritten by the **Family Law Amendment Act 2023** (commenced 6 May 2024) and the **Family Law Amendment Act 2024** (commenced 10 June 2025). If you've read older guides, talked to people whose cases ran before 2024, or seen advice online, much of it is now wrong. The big changes:
 
-This is the most important section. Every decision about your child comes back to this. The court must consider:
+| Old law (pre-May 2024) | Current law |
+|---|---|
+| Presumption of **equal shared parental responsibility** (s61DA) | **Repealed.** No presumption. The court decides decision-making allocation case by case |
+| If presumption applied, court had to consider **equal time** or substantial and significant time (s65DAA) | **Repealed.** No automatic equal-time pathway |
+| Best interests test: 2 **primary** considerations + ~14 **additional** considerations (old s60CC) | **Six general considerations**, non-hierarchical, with **safety listed first** (new s60CC) |
+| Express "willingness to facilitate the relationship" factor (old s60CC(3)(c)) | **No longer an express factor** — but the behaviour still matters (see below) |
+| *Rice v Asplund* variation rule existed only in case law | **Codified** as s65DAAA |
+| Publication restriction in s121 | Replaced by **Part XIVB** (communicating details of proceedings) |
+| Family violence definition (s4AB) | Expanded **economic abuse** examples; **companion animal** (pet) abuse recognised; property division reforms (June 2025) |
 
-**Primary Considerations (the big two):**
-1. The benefit to the child of having a meaningful relationship with BOTH parents
-2. The need to protect the child from physical or psychological harm, including from family violence, abuse, or neglect
+**What didn't change:** the child's best interests are still the paramount consideration in every parenting decision. Evidence, patterns, and credibility still decide cases.
 
-These two are weighed against each other. If the other side is arguing safety, they're pushing consideration #2. Your job is to show that #1 is being denied without proper justification — and that the evidence for #2 doesn't hold up.
+---
 
-**Additional Considerations (the court also looks at):**
-- Any views expressed by the child (and what influenced those views)
-- The nature of the child's relationship with each parent and other people
-- How much each parent has participated in the child's life and decision-making
-- Each parent's willingness to facilitate the child's relationship with the other parent — THIS IS CRITICAL. If you can show the other parent is blocking the relationship, this weighs heavily
-- The likely effect of any change in circumstances on the child
-- Any family violence involving the child or a family member
-- Whether it would be preferable to make the order least likely to lead to further proceedings
-- Each parent's capacity to provide for the child's needs
-- The child's maturity, sex, lifestyle, and background
-- The attitude of each parent towards the child and parenting responsibilities
+## The Best Interests Test (Section 60CC)
 
-### Equal Shared Parental Responsibility (Section 61DA)
+This is the most important section. Every decision about your child comes back to this. Since May 2024 there are **six general considerations** — no hierarchy, no "primary vs additional":
 
-There's a presumption that equal shared parental responsibility is in the child's best interests. This means BOTH parents make major decisions together (school, health, religion).
+1. **Safety — s60CC(2)(a).** What arrangements would promote the safety (including safety from being subjected to, or exposed to, family violence, abuse, neglect, or other harm) of the child and each person who has care of the child. Under **s60CC(2A)** the court must include consideration of any history of family violence, abuse or neglect involving the child or a carer, and any family violence order that applies or has applied.
+2. **The child's views — s60CC(2)(b).** Any views expressed by the child. The court considers the views **and what shaped them** — this is where evidence of coaching or influence matters.
+3. **The child's needs — s60CC(2)(c).** The developmental, psychological, emotional and cultural needs of the child.
+4. **Capacity of each carer — s60CC(2)(d).** The capacity of each person who has (or is proposed to have) parental responsibility to provide for those developmental, psychological, emotional and cultural needs.
+5. **Benefit of relationships — s60CC(2)(e).** The benefit to the child of being able to have a relationship with the child's parents, and other people who are significant to the child, **where it is safe to do so**.
+6. **Anything else relevant — s60CC(2)(f).** A catch-all for the particular circumstances of the child.
 
-This presumption is REBUTTED (thrown out) if there are reasonable grounds to believe a parent has engaged in abuse or family violence. That's why false allegations are so damaging — they're designed to remove this presumption.
+For Aboriginal and Torres Strait Islander children, **s60CC(3)** adds the child's right to enjoy their culture and connection to family, community, country and language.
 
-If equal shared parental responsibility applies, the court must then consider equal time or substantial and significant time with each parent (Section 65DAA).
+### How the two sides of a case map onto this
 
-### Parental Responsibility vs Time
+If the other side is arguing safety, they're building on (a). Your job is to test whether the safety evidence holds up — and to show that (e), the child's relationship with you, is being denied without a safety justification. If the evidence shows the child is safe with you, then blocking the relationship doesn't promote any consideration in the list.
 
-These are different things:
-- **Parental responsibility** = who makes decisions (can be shared or sole)
+### Where "willingness to facilitate the relationship" went
+
+The old express factor (former s60CC(3)(c)) is gone. **The behaviour still matters** — a parent who obstructs the child's relationship with the other parent without safety justification is relevant under:
+- **(2)(e)** — they are denying the child the benefit of a safe relationship
+- **(2)(b)** — if the child's expressed views were shaped by that parent's influence
+- **(2)(d)** — capacity to provide for the child's *emotional* needs includes supporting the child's important relationships
+- **(2)(f)** — anything else relevant
+
+Don't cite the repealed factor. Cite the behaviour, with evidence, and map it to the current considerations above.
+
+---
+
+## Parental Responsibility and Decision-Making (Post-2024)
+
+The presumption of equal shared parental responsibility is **gone**. The current framework:
+
+- **s61CA** — parents are *encouraged* to consult each other about major long-term issues, where it is safe to do so.
+- **s61D** — the court can allocate parental responsibility (sole, joint, or split by topic) as part of parenting orders, based purely on the child's best interests.
+- **s61DAA** — if the court orders **joint decision-making on major long-term issues**, the parties must consult each other and make a genuine effort to reach a joint decision on each such issue.
+- **s61DAB** — day-to-day decisions while the child is in your care don't require consultation unless an order says otherwise.
+
+"Major long-term issues" still means things like education, religious and cultural upbringing, health, the child's name, and significant changes to living arrangements.
+
+### Parental responsibility vs time — still different things
+
+- **Parental responsibility** = who makes major decisions (sole, joint, or split)
 - **Time** = how much time the child spends with each parent
 
-You can have shared parental responsibility but unequal time. Or sole responsibility to one parent but the other still gets time. Don't confuse the two.
-
-### Family Violence and Abuse (Part VII, Division 11)
-
-The Act defines family violence broadly — physical, sexual, emotional, psychological, economic abuse, threats, coercion, control. It also includes exposing a child to these things.
-
-The court must consider any family violence orders. BUT the court is not bound by them — an AVO/DVO doesn't automatically mean there was violence. It's evidence to consider, not proof.
-
-Important: making false allegations of family violence is itself a form of systems abuse and can be considered by the court.
+There is no longer any statutory bridge from shared responsibility to equal time. Time arrangements are decided directly on the s60CC best-interests factors. If you're seeking more time, your argument is built on (2)(e) and (2)(d) — the benefit to the child of the relationship and your capacity to meet the child's needs — supported by evidence.
 
 ---
 
-## Variation of Orders — The Rice v Asplund Test
+## Family Violence and Abuse
 
-If you already have orders and want to change them, you need to pass this test before the court will even look at the merits.
+The Act defines family violence broadly (s4AB) — physical, sexual, emotional, psychological and economic abuse, threats, coercion, and control. It includes exposing a child to family violence. The June 2025 amendments **expanded the economic abuse examples**: unreasonably denying financial autonomy, controlling money or assets (including superannuation), sabotaging employment or income, and forcing someone to take on debt or liability. Abuse or threatened abuse of a **companion animal** is also now recognised.
 
-### The Test
+The court must consider any family violence orders (s60CC(2A)) — but the court is **not bound by them**. An AVO/DVO (especially an uncontested or consent-without-admissions one) is evidence to consider, not proof of violence.
 
-You must show there has been a **significant change in circumstances** since the orders were made that justifies the court reopening the matter.
+Two things cut both ways here, so document carefully:
+- Genuine safety concerns are now the **first-listed** consideration. If you raise safety, bring evidence, not assertions.
+- Misuse of process — allegations that are made strategically and don't hold up, or repeated applications used to exhaust the other party — is recognised as **systems abuse**. It goes to credibility, can support a costs order (s117), and in serious cases a **harmful proceedings order** (Part XIB) can stop a party filing further applications without leave. If you face untested allegations, your remedy is evidence: timelines, contradictions, and professional findings — recorded in this vault.
 
-### What Counts as a Significant Change
+---
 
-- The child's needs have changed (age, development, wishes)
+## Varying Final Orders — Section 65DAAA (the Rice v Asplund rule, codified)
+
+If final parenting orders exist and you want them changed, this is your gateway.
+
+### The test
+
+Under **s65DAAA**, the court must not reconsider final parenting orders unless it has considered whether there has been a **significant change in circumstances** since the orders were made, and is satisfied that reconsidering the orders is in the child's **best interests**.
+
+The Full Court in ***Radecki & Radecki* [2024] FedCFamC1A 246** clarified how this works in practice: the court must look at the evidence and make **findings of fact** about what (if anything) has changed since the orders. If there's no positive finding of changed circumstances, the application stops there. The pre-2024 *Rice v Asplund* case law continues to guide how the rule is applied (*Whitehill & Talaska* [2024]).
+
+### What counts as a significant change
+
+- The child's needs have changed materially (age, development, expressed views)
 - A parent's circumstances have changed materially
 - Orders are not being complied with
 - Information has come to light that wasn't available when orders were made
-- Recommendations in the original orders (like family therapy) were never implemented
+- Recommendations built into the original orders (like family therapy) were never implemented
 - The child's relationship with a parent has deteriorated without proper justification
-- There is evidence of alienation that wasn't fully tested
 
-### Special Arguments for Consent Orders
+### Special arguments for consent orders
 
 If the original orders were consent orders (both parties agreed), you have additional arguments:
 - **Consent was not informed** — you didn't have all the evidence when you agreed
-- **You were pressured** — your lawyer pushed you to settle without proper time
+- **You were pressured** — you were pushed to settle without proper time or advice
 - **Evidence was never tested** — allegations were accepted without cross-examination
 - **Conditions were never met** — the settlement relied on things happening (like therapy) that never did
 
-### What the Court Wants to See
+### What the court wants to see
 
-1. What specifically has changed since the orders were made
-2. Evidence that the change is material (not minor)
-3. That the current orders are no longer serving the child's best interests
-4. A clear proposal for what should change and why
+1. What specifically has changed since the orders were made — **with evidence the court can make findings on**
+2. That the change is material, not minor
+3. That the current orders no longer serve the child's best interests
+4. A clear, child-focused proposal for what should change and why
+
+**A caution:** repeated, weak variation applications can backfire badly — they can be read as systems abuse and may attract a harmful proceedings order. Build the evidence first. That's what this vault is for.
 
 ---
 
 ## Key Case Law
 
-### Rice v Asplund (1979) FamCAFC 182
-**The rule:** Before varying final parenting orders, the court must be satisfied there has been a significant change in circumstances. Without this, the court won't reopen the case.
-**Why it matters:** This is the gateway. You must get through this before anything else is considered.
+| Case | The rule | Why it matters now |
+|------|----------|--------------------|
+| *Rice v Asplund* (1979) FLC 90-725 | Significant change in circumstances needed before reopening final orders | Now codified as **s65DAAA**; the case law still guides its application |
+| *Radecki & Radecki* [2024] FedCFamC1A 246 | s65DAAA requires findings of fact about changed circumstances; no finding, no reconsideration | The current authority on how variation applications are assessed |
+| *CDJ v VAJ* (1998) HCA 67 | The child's best interests are the paramount consideration | Still the foundation — every argument connects back to this |
+| *McCall & Clark* [2009] FamCAFC 92 | Where a child's refusal may stem from a parent's influence, investigate the **source** of the views rather than accepting them at face value | Supports asking the court to examine *why* a child resists contact — now via s60CC(2)(b) |
+| *Maluka & Maluka* [2011] FamCAFC 72 | Caution in accepting a child's expressed wishes where there are indicators of parental influence | Supports challenging "the child doesn't want to go" when there's evidence of influence |
+| *Goode & Goode* [2006] FamCA 1346 | Approach to interim parenting hearings under the old presumption framework | **Treat with care** — decided under the repealed presumption/equal-time provisions; the equal-time pathway no longer exists |
+| *Mazorski & Albright* [2007] FamCA 520 | Defined what a "meaningful relationship" involves | The statutory term was removed in 2024, but the reasoning still helps describe the *benefit* of a parent-child relationship under s60CC(2)(e) |
 
-### CDJ v VAJ (1998) HCA 67
-**The rule:** The best interests of the child are the paramount consideration. All other factors are secondary.
-**Why it matters:** Every argument you make should connect back to the child's best interests.
-
-### McCall & Clark (2009) FamCAFC 92
-**The rule:** Where a child's refusal to spend time with a parent may stem from the other parent's influence, the court should investigate the source of the child's views rather than simply accepting them.
-**Why it matters:** If your child is refusing contact, this case supports the argument that the court should look at WHY — not just accept the refusal at face value.
-
-### Maluka & Maluka (2011) FamCAFC 72
-**The rule:** The court should be cautious about accepting a child's expressed wishes where there are indicators of parental influence or alienation.
-**Why it matters:** Supports challenging "the child doesn't want to go" when there's evidence of programming.
-
-### Goode & Goode (2006) FamCAFC 160
-**The rule:** Equal time is not a presumption or right. It must be reasonably practicable and in the child's best interests.
-**Why it matters:** You're not arguing for 50/50 as a right — you're arguing that a meaningful relationship requires adequate time, and the current arrangement doesn't provide it.
-
-### Mazorski & Albright (2007) FamCA 520
-**The rule:** Where professional recommendations (such as family therapy) are included in orders but not followed, this may constitute a change in circumstances justifying variation.
-**Why it matters:** If the family report recommended therapy and it never happened, that's a direct argument for variation.
+> When citing pre-2024 cases, check whether they relied on repealed provisions (the presumption, s65DAA equal time, the old s60CC structure). If they did, cite them for their surviving principle, not the repealed mechanics.
 
 ---
 
 ## Costs (Section 117)
 
-Normally each party pays their own costs in family law. But the court CAN order costs against a party who:
-- Made false allegations
+Each party normally pays their own costs in family law. But the court CAN order costs against a party who:
+- Made allegations that were found to be false
 - Failed to comply with orders
 - Acted unreasonably in the proceedings
 - Unnecessarily prolonged the proceedings
 
-If you can show the other party has been unreasonable (blocking contact, making false allegations, not following orders), you can argue for costs. This is rare but possible.
+If you can show the other party has been unreasonable (blocking contact without justification, making unfounded allegations, ignoring orders), a costs application is possible. Rare, but real — and the threat of it is itself leverage. Document everything.
 
 ---
 
-## Quick Reference — Key Sections
+## Other Provisions Worth Knowing
+
+- **Independent Children's Lawyer must meet the child** — s68LA(5A) (since May 2024). The ICL is required to meet with the child and give them an opportunity to express a view (limited exceptions, e.g. children under 5 or the child doesn't want to). If the ICL never met your child, that is a documentable process failure.
+- **Harmful proceedings orders** — Part XIB. The court can bar a party from filing further applications without leave where proceedings are being used to harm the other party or the child. Works both ways: protection if you're being dragged back to court repeatedly; a risk if you over-file.
+- **Publication restrictions** — Part XIVB (replaced the old s121, from May 2024). It is an offence to communicate identifiable details of family law proceedings to the public — including on social media. Posting case documents or naming parties online can be a criminal offence and will damage your credibility in court. Keep your case in the vault, not on Facebook.
+- **Property and finances** — the June 2025 reforms codified the property settlement framework in the Act, made the economic effect of family violence a relevant consideration in property matters, and added the companion-animal provisions. If your matter includes property, get advice on the post-June-2025 framework specifically.
+
+---
+
+## Quick Reference — Key Sections (Current Law)
 
 | Section | What It Covers |
 |---------|---------------|
-| s60B | Objects of Part VII (meaningful relationship + protection from harm) |
-| s60CC | Best interests factors (primary + additional) |
-| s60CC(2)(a) | Benefit of meaningful relationship with both parents |
-| s60CC(2)(b) | Protection from harm |
-| s60CC(3)(c) | Willingness to facilitate relationship with other parent |
-| s60CC(3)(i) | Family violence |
-| s61DA | Presumption of equal shared parental responsibility |
-| s65DAA | Equal time / substantial and significant time |
-| s65DAC | What "substantial and significant time" means |
-| s67ZBB | Meaning of "family violence" |
+| s60B | Objects of Part VII |
+| s60CA | Child's best interests paramount |
+| s60CC(2)(a) + (2A) | Safety of child and carers; history of family violence and FV orders |
+| s60CC(2)(b) | Child's views (and what shaped them) |
+| s60CC(2)(c) | Child's developmental, psychological, emotional and cultural needs |
+| s60CC(2)(d) | Each carer's capacity to meet those needs |
+| s60CC(2)(e) | Benefit of relationship with parents and significant others, where safe |
+| s60CC(2)(f) | Anything else relevant |
+| s60CC(3) | Aboriginal and Torres Strait Islander children — culture |
+| s61CA | Encouragement to consult on major long-term issues |
+| s61D / s61DAA / s61DAB | Allocation of parental responsibility; joint decision-making framework |
+| s65DAAA | Reconsideration of final parenting orders (Rice v Asplund codified) |
+| s4AB | Definition of family violence (incl. economic abuse, companion animals) |
+| s68LA(5A) | ICL must meet the child |
+| Part XIB | Harmful proceedings orders |
 | s117 | Costs |
-| s121 | Publication restrictions |
+| Part XIVB | Restrictions on communicating details of proceedings (replaced s121) |
 
 ---
 
-## Alienation — What the Law Says
+## Relationship Interference — What the Law Says Now
 
-There's no specific "parental alienation" provision in the Act, but the behaviour is captured through several sections:
+There is no "parental alienation" provision in the Act, and Australian courts are **cautious about the label** — leading with it can hurt your credibility. What courts respond to is **documented behaviour over time**:
 
-- **s60CC(3)(c)** — willingness to facilitate relationship. If a parent is actively undermining the relationship, this goes against them.
-- **s60CC(3)(a)** — the child's views and what influenced them. If the child's views are the product of one parent's influence, the court should look past the stated views.
-- **s60CC(2)(a)** — the benefit of a meaningful relationship. Alienation directly undermines this primary consideration.
+- **Contact obstruction** — withholding the child without safety justification → s60CC(2)(e) (denying the benefit of a safe relationship)
+- **Influence on the child's views** — coaching, denigration, loyalty pressure → s60CC(2)(b) (the court looks at what shaped the views; *McCall & Clark*, *Maluka & Maluka*)
+- **Failure to support the child emotionally** — including the child's relationship with the other parent → s60CC(2)(d)
+- **Unexplained deterioration** in a previously good parent-child relationship → significant change for s65DAAA purposes
 
-The expert report is often where alienation evidence lives. Look for:
-- Professional observations about the child's language or behaviour
+The expert report is often where this evidence lives. Look for:
+- Professional observations about the child's language or behaviour (adult phrasing, rehearsed accounts)
 - Notes about loyalty conflicts
-- Descriptions of the child using adult language or parroting a parent's position
+- Descriptions of the child parroting one parent's position
 - Conditional recommendations (like therapy to "repair the relationship") that acknowledge the relationship has been damaged
+- Whether the recommendations were ever implemented
+
+**Strategy:** describe behaviours, dates, and sources — never just the label. "Between March and August, 14 of 17 scheduled changeovers did not occur; the reasons given were X, Y, Z (see [[analysis/EVIDENCE-MATRIX]])" beats "the other parent is alienating the child" every time.
 
 ---
 
 ## Your Research Notes
 
-> Add additional case law, legal principles, or advice from consultations here as you go.
+> Add additional case law, legal principles, or advice from consultations here as you go. Date every entry and note where it came from.
 
 ---
 
-*This section covers Australian federal family law. If you're in a different jurisdiction, the analytical methodology (evidence matrix, contradiction engine, etc.) works regardless — you'll just need to swap in the relevant legislation and tests for your country.*
+## Other Jurisdictions
+
+This file covers Australian federal family law. The methodology (evidence matrix, contradiction engine, attribution standards) works in any jurisdiction — you just need the local legal framework. If you adapt this file for the UK, US, Canada, NZ or elsewhere, add it as a sibling file in this folder (e.g. `uk.md`) and consider contributing it back to the project.
+
+*Law current as at June 2026. Verify before filing.*

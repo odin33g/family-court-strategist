@@ -61,8 +61,10 @@ A ready-to-go evidence system with:
 | **Coincidence Map** | Tracks suspicious timing alignments between events |
 | **8 Document Templates** | Incidents, communications, affidavits, court orders, patterns, legal letters, strategy notes, person profiles |
 | **Dataview Dashboard** | Live queries that surface patterns across your entire vault automatically |
-| **Attribution Standards** | Legal-grade protocol for recording quotes accurately — because one misattribution can tank your credibility |
+| **Attribution Standards** | Legal-grade protocol for recording quotes accurately — including screenshots, recordings, and AI-extracted quotes — because one misattribution can tank your credibility |
+| **Security & Privacy Guide** | Five-minute setup that protects the most sensitive folder on your computer — encryption, passwords, sync choices, and the legal lines you must not cross |
 | **Lawyer Accountability Tracker** | Track every piece of advice, every cost, and every action your solicitor takes or doesn't take |
+| **Current Legal Research** | The Australian framework as it stands after the May 2024 and June 2025 reforms — pre-loaded, in plain language, with a "law current as at" stamp |
 
 ### The Claude Plugin (`/plugin/`)
 
@@ -158,7 +160,7 @@ This is an open project. If you've been through family court and have insights t
 
 ## Disclaimer
 
-This is a case organisation and evidence analysis tool. **It is not legal advice.** Always seek independent legal advice for major decisions in your matter. The methodology is based on Australian family law (Family Law Act 1975) but the analytical framework applies to family courts in any jurisdiction.
+This is a case organisation and evidence analysis tool. **It is not legal advice.** Always seek independent legal advice for major decisions in your matter. The methodology is based on Australian family law — the Family Law Act 1975 as amended, including the major reforms that commenced in May 2024 and June 2025 (legal content current as at June 2026) — but the analytical framework applies to family courts in any jurisdiction. Family law changes: verify any section reference against the current Act before relying on it in court.
 
 ---
 

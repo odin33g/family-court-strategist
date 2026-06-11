@@ -68,7 +68,8 @@ Once you have my answers, create the following folder structure in my workspace 
 ├── patterns.md
 ├── _system/
 │   ├── analysis-framework.md
-│   └── attribution-standards.md
+│   ├── attribution-standards.md
+│   └── security-and-privacy.md
 ├── _templates/
 │   ├── incident.md
 │   ├── communication.md
@@ -109,9 +110,9 @@ Once you have my answers, create the following folder structure in my workspace 
 
 **PEOPLE-MAP.md** — Pre-filled with the people from my answers. Tables for: core parties, legal professionals, expert/service providers, family members. Include sections for "People Never Assessed" (anyone living with the child who wasn't interviewed by the family report writer) and "Conflicts of Interest."
 
-**DASHBOARD.md** — Dataview queries for: master timeline, contact events, alienation indicators, system failures, legal representation tracking, communications log, missing evidence, people index, and costs tracker.
+**DASHBOARD.md** — Dataview queries for: master timeline, contact events, relationship interference indicators, system failures, legal representation tracking, communications log, missing evidence, people index, and costs tracker.
 
-**patterns.md** — A catalogue of common patterns in family court cases with blank tracking tables. Include: contact blocking, communication avoidance, gatekeeping, alienation indicators (denigration, loyalty conflicts, rejection without cause, programming), allegation timing, escalation cycles, settlement pressure, evidence avoidance, unfollowed recommendations, incomplete assessments, institutional non-engagement, conflicts of interest. For each pattern: what it is, how to spot it, minimum 3 instances to be compelling.
+**patterns.md** — A catalogue of common patterns in family court cases with blank tracking tables. Include: contact blocking, communication avoidance, gatekeeping, relationship interference indicators — often called "alienation" (denigration, loyalty conflicts, rejection without cause, programming) with a note that courts are cautious about the label so the behaviours must be tracked with dates and sources, allegation timing, escalation cycles, settlement pressure, evidence avoidance, unfollowed recommendations, incomplete assessments, institutional non-engagement, conflicts of interest. For each pattern: what it is, how to spot it, minimum 3 instances to be compelling.
 
 **_system/analysis-framework.md** — The 13-point forensic analysis protocol:
 1. FACTS — Only verifiable facts, no assumptions
@@ -136,6 +137,8 @@ Include document-specific guidance for: affidavits, expert reports, solicitor le
 
 **_system/attribution-standards.md** — The rule: every quote must include WHO said it, TO WHOM, PER WHOSE ACCOUNT, and PARAGRAPH/PAGE REFERENCE. Include format examples for: direct quotes, child's statements, professional observations, disputed accounts. Include special cases for: conflicting accounts (present both, label each, flag with warning), second-hand quotes (note the chain), when speaker is the document author. Include a table of common errors and why they're dangerous. Include an audit protocol and a blank corrections log.
 
+**_system/security-and-privacy.md** — Practical protection guidance: full-disk encryption, fresh passwords (email first), deliberate cloud-sync choices, backups, keeping the vault away from shared devices and from the children, the publication offence (Part XIVB — never post case material online, including social media groups), state-by-state caution on covert recordings, obtaining documents lawfully, and safe AI use with case material. Tell me to read this file FIRST, before adding any documents.
+
 **_templates/** — 8 templates, each with YAML frontmatter and structured sections:
 - incident.md: What happened, evidence table with strength ratings, impact on child, legal significance, follow-up
 - communication.md: From/to/method/date, content, response, pattern, significance
@@ -146,25 +149,27 @@ Include document-specific guidance for: affidavits, expert reports, solicitor le
 - strategy_note.md: Objective, current position, evidence table, risks, steps, questions for lawyer, deadline
 - person_profile.md: Role, key information, key statements with attribution, actions taken, concerns, assessment
 
-**analysis/EVIDENCE-MATRIX.md** — Tables for tracking: allegations against you, contact/access issues, alienation indicators, parenting capacity, system/process failures, legal representation failures. Each table has columns: claim, source, professional findings, independent evidence, contradictions, status (PROVEN/DISPUTED/UNRESOLVED/DISPROVEN), strength rating.
+**analysis/EVIDENCE-MATRIX.md** — Tables for tracking: allegations against you, contact/access issues, relationship interference indicators, parenting capacity, system/process failures, legal representation failures. Each table has columns: claim, source, professional findings, independent evidence, contradictions, status (PROVEN/DISPUTED/UNRESOLVED/DISPROVEN), strength rating.
 
 **analysis/CROSS-DOCUMENT-ANALYSIS.md** — Tables for: timeline conflicts, statement evolution, professional opinion conflicts, internal contradictions, credibility vulnerabilities, evidence gaps.
 
 **analysis/COINCIDENCE-MAP.md** — Table for timing alignments: trigger event, response event, gap, coincidence or pattern, evidence links. Section for recurring sequences with interpretation. Key questions to ask about each pattern.
 
-**legal-research/INDEX.md** — Pre-loaded with the relevant legal framework for my jurisdiction. If Australian, include:
-- Best Interests Test (s60CC) with primary and additional considerations explained in plain language
-- Equal Shared Parental Responsibility (s61DA) and how false allegations rebut it
+**legal-research/INDEX.md** — Pre-loaded with the relevant legal framework for my jurisdiction, CURRENT as at today's date — verify the law before writing it down, do not rely on memory of older law. If Australian, the framework must reflect the Family Law Amendment Act 2023 (commenced 6 May 2024) and Family Law Amendment Act 2024 (commenced 10 June 2025), and include:
+- The Best Interests Test (s60CC) as amended — the six general considerations (safety first, including s60CC(2A) family violence history; child's views and what shaped them; the child's needs; each carer's capacity; benefit of safe relationships with both parents; anything else relevant), explained in plain language
+- Parental responsibility after the 2024 reforms: the s61DA presumption of equal shared parental responsibility and the s65DAA equal-time pathway were REPEALED — explain the current framework (s61CA, s61D, s61DAA joint decision-making) and warn me never to cite the repealed provisions
 - Difference between parental responsibility and time
-- Family violence definitions and what AVOs/DVOs mean in court
-- Rice v Asplund variation test: what counts as significant change, special arguments for consent orders
-- Key case law: Rice v Asplund, CDJ v VAJ, McCall & Clark, Maluka & Maluka, Goode & Goode, Mazorski & Albright — each with the rule, why it matters, and when to use it
+- Family violence definitions (s4AB, including the expanded economic abuse examples from June 2025) and what AVOs/DVOs mean in court
+- Varying final orders under s65DAAA (the codified Rice v Asplund test): what counts as significant change, the Radecki & Radecki [2024] requirement for findings of fact, special arguments for consent orders
+- Key case law: Rice v Asplund, Radecki & Radecki, CDJ v VAJ, McCall & Clark, Maluka & Maluka — each with the rule, why it matters, and when to use it, flagging any case that relied on now-repealed provisions
 - Costs (s117) — when the court can order costs against a party
-- Quick reference table of key statutory sections
-- How alienation is captured through existing legislation (s60CC(3)(c), s60CC(3)(a), s60CC(2)(a))
-- What to look for in expert reports regarding alienation
+- Harmful proceedings orders (Part XIB) and the publication restrictions (Part XIVB, which replaced s121) — including the warning that posting about my case on social media can be an offence
+- Quick reference table of key statutory sections (current numbering)
+- How relationship interference is captured through existing legislation (s60CC(2)(e), s60CC(2)(b), s60CC(2)(d)) — note that courts are cautious about the "parental alienation" label, so document behaviours with evidence rather than leading with the label
+- What to look for in expert reports regarding influence on the child and unimplemented recommendations
+- A "law current as at [date]" stamp at the top
 
-If I'm NOT in Australia, research and provide the equivalent legal framework for my jurisdiction.
+If I'm NOT in Australia, research and provide the equivalent CURRENT legal framework for my jurisdiction.
 
 **People profiles** — Create a profile in /people/ for: me, the other parent, and each child. Pre-fill from my answers.
 
