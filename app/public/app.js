@@ -38,14 +38,14 @@ function viewDashboard(m) {
   const pillar = (name) => `<div class="plr"><div class="t"><span>${name}</span><span style="color:var(--amber)">Build</span></div><div class="meter"><i style="width:40%;background:var(--amber)"></i></div></div>`;
   const pat = m.patterns[0]
     ? `<div class="top"><span class="nm">${esc(m.patterns[0].name)}</span><span class="ct">tracked</span></div>
-       <div class="desc">Log at least 3 dated instances to make this court-ready.</div>
-       <div class="leg">Two is coincidence, three is a pattern.</div>`
+       <div class="desc">Repetition may be relevant, but no fixed count proves a legal pattern.</div>
+       <div class="leg">Assess dated sources, context, contrary evidence, and reasonable alternative explanations.</div>`
     : `<p class="empty">No patterns tracked yet.</p>`;
   return `
   <div class="stats">
     ${statCard("Documents analysed", m.stats.documentsAnalysed, "type: legal")}
     ${statCard("Open contradictions", m.stats.openContradictions, "flagged in frontmatter", "var(--red)")}
-    ${statCard("Patterns tracked", m.stats.patternsTracked, "3+ instances = court-ready")}
+    ${statCard("Patterns tracked", m.stats.patternsTracked, "assess sources, context &amp; alternatives")}
     ${statCard("Timeline events", m.stats.timelineEvents, "dated &amp; identified")}
   </div>
   <div class="row">
@@ -78,14 +78,14 @@ function docStudioCard() {
     <div class="pv"><div class="sheet"><div class="h"></div><div class="ln"></div><div class="ln"></div><div class="ln s"></div><div class="ln"></div><div class="ln s"></div></div>
     <div class="sheet"><div class="h" style="width:55%"></div><div class="ln"></div><div class="ln s"></div><div class="ln"></div><div class="ln"></div></div></div>
     <div class="tx"><h2>Document Studio</h2>
-    <p>Turn your timeline into a court-ready <b>chronology</b> — clean typography, exported as PDF straight from your browser.</p>
-    <span class="btn" data-action="chronology"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" stroke-linecap="round" stroke-linejoin="round"/></svg>Generate chronology PDF</span></div>
+    <p>Turn your timeline into a printable draft <b>chronology</b> — clean typography, ready to print or save as PDF. Verify every entry for accuracy and completeness before use.</p>
+    <span class="btn" data-action="chronology"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" stroke-linecap="round" stroke-linejoin="round"/></svg>Generate draft chronology PDF</span></div>
   </div></div>`;
 }
 
 function viewTimeline(m) {
   return `<div class="card"><div class="hd"><h2>Master timeline — ${m.timeline.length} events</h2>
-    <span class="btn small" data-action="chronology">Export chronology PDF</span></div>
+    <span class="btn small" data-action="chronology">Export draft chronology PDF</span></div>
     <div class="bd">${timelineRows(m.timeline)}</div></div>`;
 }
 function viewEvidence(m) {
@@ -97,7 +97,7 @@ function viewPatterns(m) {
   if (!m.patterns.length) return `<div class="card"><div class="bd"><p class="empty">No patterns tracked yet. Create notes with <code>type: pattern</code>.</p></div></div>`;
   return `<div class="cards-list">${m.patterns.map((p) => `<div class="card"><div class="bd">
     <h3 class="li-title">${esc(p.name)}</h3>
-    <p class="li-sub">Pattern — log 3+ dated instances to make it court-ready.</p></div></div>`).join("")}</div>`;
+    <p class="li-sub">Repetition may be relevant, but no fixed count proves a legal pattern. Assess dated sources, context, contrary evidence, and reasonable alternatives.</p></div></div>`).join("")}</div>`;
 }
 function viewPeople(m) {
   if (!m.people.length) return `<div class="card"><div class="bd"><p class="empty">No people yet. Create notes with <code>type: person</code>.</p></div></div>`;
@@ -108,8 +108,8 @@ function viewPeople(m) {
 function viewDocuments() {
   return `<div class="cards-list">
     <div class="card"><div class="bd doc-row">
-      <div><h3 class="li-title">Chronology of events</h3><p class="li-sub">A dated table of every timeline event, court-formatted. Exports to PDF via your browser.</p></div>
-      <span class="btn" data-action="chronology">Generate PDF</span></div></div>
+      <div><h3 class="li-title">Printable draft chronology</h3><p class="li-sub">A dated table of timeline events that you can print or save as PDF. Verify accuracy and completeness before use.</p></div>
+      <span class="btn" data-action="chronology">Generate draft PDF</span></div></div>
     <div class="card"><div class="bd doc-row">
       <div><h3 class="li-title">Evidence summary <span class="soon">v2</span></h3><p class="li-sub">Claims mapped to evidence with status and strength.</p></div>
       <span class="btn disabled">Coming soon</span></div></div>
@@ -202,11 +202,11 @@ function generateChronology() {
     : `<tr><td colspan="4">No dated events recorded.</td></tr>`;
   $("print-area").innerHTML = `
     <div class="doc">
-      <h1 class="doc-h1">Chronology of Events</h1>
+      <h1 class="doc-h1">Draft Chronology of Events</h1>
       <p class="doc-meta">${esc(m.court || m.caseName || "Family law matter")}</p>
       <table class="doc-table"><thead><tr><th>Date</th><th>Event</th><th>Type</th><th>Ref</th></tr></thead>
       <tbody>${rows}</tbody></table>
-      <p class="doc-foot">Prepared with Family Court Strategist · this is a case-organisation document, not legal advice.</p>
+      <p class="doc-foot">Prepared with Family Court Strategist · printable draft only. Verify accuracy and completeness before use. This is a case-organisation document, not legal advice.</p>
     </div>`;
   document.body.classList.add("printing");
   const cleanup = () => { document.body.classList.remove("printing"); window.removeEventListener("afterprint", cleanup); };

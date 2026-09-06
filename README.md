@@ -143,7 +143,7 @@ This isn't a checklist someone made up. It was developed through 18 months of re
 
 1. **Every claim needs a source.** If you can't link it to a document, it's not evidence.
 2. **Every quote needs attribution.** Who said it, to whom, per whose account, paragraph reference.
-3. **Patterns beat incidents.** Two is a coincidence. Three is a pattern. Five is undeniable.
+3. **Treat repetition carefully.** Repetition may be relevant, but no fixed count proves a legal pattern. Assess dated sources, context, contrary evidence, and reasonable alternative explanations.
 4. **Document everything in real time.** The best evidence is contemporaneous.
 5. **Be honest about your weaknesses.** Knowing where you're vulnerable is as important as knowing where you're strong.
 6. **The child comes first.** Always. In every argument, every strategy, every decision.
