@@ -39,15 +39,15 @@ Confirm everything back to me before proceeding.
 
 Create a complete Obsidian evidence vault in my workspace folder with this structure:
 
-**Core files:** HOME.md (navigation hub with three case pillars: child's best interests, credibility, system accountability), CASE-DETAILS.md (pre-filled from my answers, includes solicitor tracker), MASTER-TIMELINE.md (chronological event table with colour-coded types and event IDs), PEOPLE-MAP.md (pre-filled with everyone mentioned, includes 'never assessed' and 'conflicts of interest' sections), DASHBOARD.md (Dataview queries for timeline, contact, alienation, system failures, legal rep, communications, missing evidence, people, costs), patterns.md (catalogue of common family court patterns with blank tracking tables).
+**Core files:** HOME.md (navigation hub with three case pillars: child's best interests, credibility, system accountability), CASE-DETAILS.md (pre-filled from my answers, includes solicitor tracker), MASTER-TIMELINE.md (chronological event table with colour-coded types and event IDs), PEOPLE-MAP.md (pre-filled with everyone mentioned, includes 'never assessed' and 'conflicts of interest' sections), DASHBOARD.md (Dataview queries for timeline, contact, relationship/contact concerns, system failures, legal rep, communications, missing evidence, people, costs), patterns.md (catalogue of recurring observable events with dated sources, alternative explanations, and blank tracking tables; distinguish allegations from findings and do not infer diagnoses or motives).
 
 **System files:** _system/analysis-framework.md (the 13-point forensic protocol: Facts, Claims, Evidence with strength ratings, Inconsistencies, Contradictions, Discrepancies, Potentially false/misleading, Patterns, Risk & impact, Opportunities, Follow-up, Event linking, Obsidian output — plus cross-document mode, critical mode, event ID system, YAML frontmatter standard), _system/attribution-standards.md (quote attribution rules, format examples, error table, audit protocol).
 
 **8 Templates:** _templates/ with incident, communication, affidavit_note, court_order, pattern_note, legal_letter, strategy_note, person_profile — each with YAML frontmatter and structured sections.
 
-**Analysis section:** analysis/EVIDENCE-MATRIX.md (claims vs evidence tracker with status and strength), analysis/CROSS-DOCUMENT-ANALYSIS.md (contradiction engine: timeline conflicts, statement evolution, professional opinion conflicts, credibility vulnerabilities, evidence gaps), analysis/COINCIDENCE-MAP.md (suspicious timing alignment tracker).
+**Analysis section:** analysis/EVIDENCE-MATRIX.md (claims vs evidence tracker with status and strength; use neutral organisational labels, distinguish allegations from findings, and do not diagnose or assume motive), analysis/CROSS-DOCUMENT-ANALYSIS.md (contradiction engine: timeline conflicts, statement evolution, professional opinion conflicts, credibility vulnerabilities, evidence gaps), analysis/COINCIDENCE-MAP.md (timing alignment tracker that records sources and reasonable alternative explanations).
 
-**Legal research:** legal-research/INDEX.md — pre-loaded with the legal framework for MY jurisdiction. If Australian: s60CC best interests test in plain language, s61DA equal shared parental responsibility, Rice v Asplund variation test, key case law (Rice v Asplund, CDJ v VAJ, McCall & Clark, Maluka & Maluka, Goode & Goode, Mazorski & Albright) with what each means and when to use it, costs (s117), how alienation is captured in existing legislation. If another jurisdiction: provide the equivalent.
+**Legal research:** legal-research/INDEX.md — a concise, neutral framework for MY jurisdiction. If Australian, state that it is general information rather than legal advice and was reviewed 7 September 2026; tell me to verify current law and seek qualified Australian family-law advice; link the [current Family Law Act 1975](https://www.legislation.gov.au/C2004A00275/latest/text) and [Attorney-General's Department guidance](https://www.ag.gov.au/families-and-marriage/children-and-family-law); explain s60CA and the current s60CC general considerations (plus the separate cultural considerations for an Aboriginal or Torres Strait Islander child), ss61B–61DAA (including s61DAA) parental responsibility and joint or sole decision-making with explicit statements that there is no presumption about which arrangement is best and no linked equal-time requirement, current s65DAAA including its statutory threshold, listed considerations and consent exception (the historical *Rice & Asplund* label may be noted without unsupported case holdings), and the s4AB family-violence definition plus relevant s60CC safety considerations. Require neutral, attributed evidence language: distinguish allegations from findings, record observable conduct and impact, and do not assume motive or use diagnostic labels as proof. If another jurisdiction, research the current equivalent using dated primary or official sources, include the same disclaimer, and recommend qualified local advice.
 
 **People profiles** in /people/ for me, the other parent, and each child.
 
@@ -68,10 +68,10 @@ Walk me through everything like I've never used Obsidian before:
 - My first 5 minutes: HOME → CASE-DETAILS → PEOPLE-MAP → DASHBOARD
 - How to add my first document (where to save, naming convention, YAML frontmatter, running the 13-point analysis, updating the Evidence Matrix and Timeline)
 - How to use the Contradiction Engine
-- How to spot and track patterns (minimum 3 instances to be compelling)
+- How to track recurring events as a hypothesis rather than a finding, with a dated source for every instance and no fixed count treated as proof
 - How to track my lawyer (what to record, how to track costs, red flags)
 - How to prepare for court using the system
-- The 6 golden rules: (1) every claim needs a source, (2) every quote needs attribution, (3) patterns beat incidents, (4) document in real time, (5) be honest about weaknesses, (6) the child comes first
+- The 6 golden rules: (1) every claim needs a source, (2) every quote needs attribution, (3) repetition requires analysis and no fixed count proves a pattern, (4) document in real time, (5) be honest about weaknesses, (6) the child comes first
 
 Ask me at each step if I understand before moving on.
 
