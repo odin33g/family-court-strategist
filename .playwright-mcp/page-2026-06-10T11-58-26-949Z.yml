@@ -1,0 +1,74 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e8]: StrategistCase workspace
+      - generic [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Current matter
+        - generic [ref=e11]:
+          - generic [ref=e12]: sample-case
+          - img [ref=e13]
+      - generic [ref=e15]: Overview
+      - generic [ref=e16] [cursor=pointer]:
+        - img [ref=e17]
+        - text: Dashboard
+      - generic [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+        - text: Timeline
+        - generic [ref=e26]: "5"
+      - generic [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+        - text: Evidence Matrix
+        - generic [ref=e31]: "0"
+      - generic [ref=e32] [cursor=pointer]:
+        - img [ref=e33]
+        - text: Patterns
+        - generic [ref=e35]: "1"
+      - generic [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+        - text: People
+        - generic [ref=e40]: "2"
+      - generic [ref=e41]: Build
+      - generic [ref=e42] [cursor=pointer]:
+        - img [ref=e43]
+        - text: Documents
+      - generic [ref=e46] [cursor=pointer]:
+        - img [ref=e47]
+        - text: Legal Research
+      - generic [ref=e49]: Local · nothing leaves this device
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: People · Federal Circuit and Family Court of Australia
+          - heading "People" [level=1] [ref=e180]
+        - textbox "Search the vault…" [ref=e56]
+        - button "Ask Claude" [active] [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+          - text: Ask
+          - generic [ref=e60]: Claude
+      - generic [ref=e61]:
+        - img [ref=e62]
+        - generic [ref=e65]: Sample case loaded. This is fictional demo data. Point the app at your own vault to see your matter — nothing is ever uploaded.
+      - generic [ref=e181]:
+        - generic [ref=e183]:
+          - generic [ref=e184]: T
+          - generic [ref=e185]:
+            - heading "The Applicant" [level=3] [ref=e186]
+            - paragraph [ref=e187]: Applicant / Father
+        - generic [ref=e189]:
+          - generic [ref=e190]: T
+          - generic [ref=e191]:
+            - heading "The Respondent" [level=3] [ref=e192]
+            - paragraph [ref=e193]: Respondent / Mother
+  - dialog [ref=e195]:
+    - button "Close" [ref=e196] [cursor=pointer]: ✕
+    - generic [ref=e197]:
+      - heading "Ask Claude — side by side" [level=2] [ref=e198]
+      - paragraph [ref=e199]: In this version, the analysis runs in your Claude desktop / Cowork session, working on the same vault files. This app shows the results live. (In-app AI buttons arrive in a later version.)
+      - list [ref=e200]:
+        - listitem [ref=e201]: Open the Claude desktop app with this case folder as your workspace.
+        - listitem [ref=e202]: Paste the starter prompt below, or just say "set up my case" / "analyse this".
+        - listitem [ref=e203]: Come back here and refresh — your timeline and matrix update.
+      - code [ref=e205]: Using my Family Court Strategist vault in this folder, analyse the most recent document I add and update the timeline, evidence matrix, and patterns. Flag any contradictions.
+      - button "Copy starter prompt" [ref=e206]

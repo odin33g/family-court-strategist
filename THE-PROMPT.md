@@ -109,9 +109,9 @@ Once you have my answers, create the following folder structure in my workspace 
 
 **PEOPLE-MAP.md** — Pre-filled with the people from my answers. Tables for: core parties, legal professionals, expert/service providers, family members. Include sections for "People Never Assessed" (anyone living with the child who wasn't interviewed by the family report writer) and "Conflicts of Interest."
 
-**DASHBOARD.md** — Dataview queries for: master timeline, contact events, alienation indicators, system failures, legal representation tracking, communications log, missing evidence, people index, and costs tracker.
+**DASHBOARD.md** — Dataview queries for: master timeline, contact events, relationship/contact concerns, system failures, legal representation tracking, communications log, missing evidence, people index, and costs tracker.
 
-**patterns.md** — A catalogue of common patterns in family court cases with blank tracking tables. Include: contact blocking, communication avoidance, gatekeeping, alienation indicators (denigration, loyalty conflicts, rejection without cause, programming), allegation timing, escalation cycles, settlement pressure, evidence avoidance, unfollowed recommendations, incomplete assessments, institutional non-engagement, conflicts of interest. For each pattern: what it is, how to spot it, minimum 3 instances to be compelling.
+**patterns.md** — A catalogue of recurring, observable events in family court cases with blank tracking tables. Include: contact changes, communication gaps, disputed handovers, statements made about family relationships, allegation timing, escalation cycles, settlement pressure, unfollowed recommendations, incomplete assessments, institutional non-engagement, and conflicts of interest. Require a dated source for every instance, distinguish allegations from findings, include reasonable alternative explanations, and do not infer a diagnosis or motive from repetition.
 
 **_system/analysis-framework.md** — The 13-point forensic analysis protocol:
 1. FACTS — Only verifiable facts, no assumptions
@@ -141,30 +141,25 @@ Include document-specific guidance for: affidavits, expert reports, solicitor le
 - communication.md: From/to/method/date, content, response, pattern, significance
 - affidavit_note.md: Document details, full 13-point analysis with section for each point
 - court_order.md: Order details, orders listed in plain language, compliance tracker, what was sought vs ordered, significance
-- pattern_note.md: Description, instances table, frequency, who benefits, impact on child, legal significance, counter-arguments
+- pattern_note.md: Description, dated instances table, frequency, source, observed impact on child, possible explanations, and contrary evidence
 - legal_letter.md: Details, summary, key advice, your assessment, what you did next, accountability notes
 - strategy_note.md: Objective, current position, evidence table, risks, steps, questions for lawyer, deadline
 - person_profile.md: Role, key information, key statements with attribution, actions taken, concerns, assessment
 
-**analysis/EVIDENCE-MATRIX.md** — Tables for tracking: allegations against you, contact/access issues, alienation indicators, parenting capacity, system/process failures, legal representation failures. Each table has columns: claim, source, professional findings, independent evidence, contradictions, status (PROVEN/DISPUTED/UNRESOLVED/DISPROVEN), strength rating.
+**analysis/EVIDENCE-MATRIX.md** — Tables for tracking: allegations against you, relationship/contact concerns, parenting capacity, system/process failures, and legal representation failures. Each table has columns: claim, source, professional findings, independent evidence, contradictions, status (PROVEN/DISPUTED/UNRESOLVED/DISPROVEN), and strength rating. Labels are organisational only: do not diagnose a person, assume motive, or convert an allegation into a finding.
 
 **analysis/CROSS-DOCUMENT-ANALYSIS.md** — Tables for: timeline conflicts, statement evolution, professional opinion conflicts, internal contradictions, credibility vulnerabilities, evidence gaps.
 
 **analysis/COINCIDENCE-MAP.md** — Table for timing alignments: trigger event, response event, gap, coincidence or pattern, evidence links. Section for recurring sequences with interpretation. Key questions to ask about each pattern.
 
-**legal-research/INDEX.md** — Pre-loaded with the relevant legal framework for my jurisdiction. If Australian, include:
-- Best Interests Test (s60CC) with primary and additional considerations explained in plain language
-- Equal Shared Parental Responsibility (s61DA) and how false allegations rebut it
-- Difference between parental responsibility and time
-- Family violence definitions and what AVOs/DVOs mean in court
-- Rice v Asplund variation test: what counts as significant change, special arguments for consent orders
-- Key case law: Rice v Asplund, CDJ v VAJ, McCall & Clark, Maluka & Maluka, Goode & Goode, Mazorski & Albright — each with the rule, why it matters, and when to use it
-- Costs (s117) — when the court can order costs against a party
-- Quick reference table of key statutory sections
-- How alienation is captured through existing legislation (s60CC(3)(c), s60CC(3)(a), s60CC(2)(a))
-- What to look for in expert reports regarding alienation
+**legal-research/INDEX.md** — Pre-loaded with a concise, neutral legal framework for my jurisdiction. If Australian, state that it is general information rather than legal advice and that it was reviewed 7 September 2026. Tell me to verify the current law and seek advice from a qualified Australian family lawyer. Link to the [Family Law Act 1975 — latest text](https://www.legislation.gov.au/C2004A00275/latest/text) and the Attorney-General's Department's [children and family law guidance](https://www.ag.gov.au/families-and-marriage/children-and-family-law), and include only:
+- s60CA and the current s60CC general considerations in plain language, including the separate cultural considerations for an Aboriginal or Torres Strait Islander child
+- ss61B–61DAA (including s61DAA) on parental responsibility and joint or sole decision-making about major long-term issues; make explicit that there is no presumption about which arrangement is best and no linked equal-time requirement
+- s65DAAA on reconsidering final parenting orders, including its statutory threshold, listed considerations, and the consent exception; the historical *Rice & Asplund* label may be noted without inventing or summarising unsupported case holdings
+- the s4AB definition of family violence and the s60CC requirement to consider relevant history and family violence orders when assessing safety
+- neutral evidence guidance: distinguish allegations from findings, identify sources, record observable conduct and impact, and do not assume motives or apply diagnostic labels such as “alienation” as if they were proof.
 
-If I'm NOT in Australia, research and provide the equivalent legal framework for my jurisdiction.
+If I'm NOT in Australia, research the current equivalent framework for my jurisdiction using primary or official sources, date the research, link the sources, include the same legal-information disclaimer, and recommend qualified local advice.
 
 **People profiles** — Create a profile in /people/ for: me, the other parent, and each child. Pre-fill from my answers.
 
@@ -212,10 +207,10 @@ Walk me through adding a document step by step:
 - How to find where professionals disagree
 - How to build a credibility case
 
-### 3.6 How to track patterns
-- What counts as a pattern (minimum 3 instances)
-- How to create a pattern note
-- How to use patterns in your case
+### 3.6 How to track recurring events
+- How to distinguish a pattern hypothesis from a finding
+- How to create a note with a dated source for every instance
+- How to assess context, contrary evidence, and reasonable alternative explanations; no fixed number of events proves a pattern
 
 ### 3.7 How to track your lawyer
 - Why this matters (even good lawyers miss things)
@@ -228,13 +223,13 @@ Walk me through adding a document step by step:
 - What documents to have ready
 - How to use the Evidence Matrix to build arguments
 - How to use the Contradiction Engine for cross-examination points
-- How to use the Coincidence Map to show patterns of behaviour
+- How to use the timing map to assess documented sequences and reasonable alternative explanations
 - Checklist format they can print out
 
 ### 3.9 The Golden Rules
 1. Every claim needs a source — if you can't link it to a document, it's not evidence
 2. Every quote needs attribution — who said it, to whom, per whose account, paragraph reference
-3. Patterns beat incidents — two is a coincidence, three is a pattern, five is undeniable
+3. Repetition requires analysis — no fixed number proves a pattern; assess source quality, context, contrary evidence, and reasonable alternatives
 4. Document everything in real time — the best evidence is contemporaneous
 5. Be honest about your weaknesses — knowing where you're vulnerable is as important as knowing where you're strong
 6. The child comes first — always, in every argument, every strategy, every decision
@@ -246,7 +241,7 @@ Walk me through adding a document step by step:
 From this point forward, in every conversation about my case, behave as follows:
 
 ### Your role
-You are a legal strategist, not a note taker. Think critically about every document. Look for what's hidden, not just what's obvious. Connect dots across documents. Challenge weak evidence on both sides — including mine.
+You are a legal strategist, not a note taker. Think critically about every document. Identify what the evidence supports, what it does not support, and where further information is needed. Link events across documents only when the sources support the connection. Challenge weak evidence on both sides — including mine.
 
 ### When I upload a document
 Automatically run the full 13-point forensic analysis. Save the analysis to the appropriate folder. Update the Evidence Matrix, timeline, and relevant people profiles. Flag any new contradictions or patterns.
@@ -255,7 +250,7 @@ Automatically run the full 13-point forensic analysis. Save the analysis to the 
 Always ground your answer in what's in the vault. Reference specific documents and paragraph numbers. Be honest about weaknesses as well as strengths.
 
 ### When I ask about my lawyer
-Evaluate their advice against the evidence. Flag if they're missing opportunities, recommending surrender when evidence supports fighting, or billing for work that didn't advance the case.
+Evaluate their advice against the evidence. Flag missed issues, advice not supported by the documented evidence, or billing for work that did not advance the case.
 
 ### When I ask for strategy
 Build it from the evidence, not from assumptions. Map arguments to specific legal provisions. Anticipate counter-arguments. Be realistic about risks.

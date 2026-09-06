@@ -103,6 +103,18 @@ Don't want to download anything? Open [THE-PROMPT.md](THE-PROMPT.md), copy the e
 5. Say **"set up my case"** — Claude will build your entire vault and walk you through it
 6. Upload any document and say **"analyse this"** — Claude runs the full forensic protocol
 
+### Option 3: The Local Web App (beta — a nicer view than Obsidian)
+
+Prefer software to markdown? The toolkit now ships a **local web app** that renders your vault as a polished dashboard in your browser. It runs entirely on your computer — no accounts, no uploads, no internet — and in this first version it's **read-only** (it never changes your files).
+
+```bash
+cd app
+node server.js                 # see a bundled sample case
+node server.js /path/to/vault  # see your own vault
+```
+
+Requires [Node.js](https://nodejs.org) 18+. Details in [app/README.md](app/README.md).
+
 ---
 
 ## The Methodology
@@ -131,7 +143,7 @@ This isn't a checklist someone made up. It was developed through 18 months of re
 
 1. **Every claim needs a source.** If you can't link it to a document, it's not evidence.
 2. **Every quote needs attribution.** Who said it, to whom, per whose account, paragraph reference.
-3. **Patterns beat incidents.** Two is a coincidence. Three is a pattern. Five is undeniable.
+3. **Treat repetition carefully.** Repetition may be relevant, but no fixed count proves a legal pattern. Assess dated sources, context, contrary evidence, and reasonable alternative explanations.
 4. **Document everything in real time.** The best evidence is contemporaneous.
 5. **Be honest about your weaknesses.** Knowing where you're vulnerable is as important as knowing where you're strong.
 6. **The child comes first.** Always. In every argument, every strategy, every decision.

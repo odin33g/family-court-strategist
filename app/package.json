@@ -1,0 +1,11 @@
+{
+  "name": "family-court-strategist-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local web workspace for the Family Court Strategist vault. Zero dependencies.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}

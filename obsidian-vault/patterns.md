@@ -48,4 +48,4 @@ Use this as a checklist — not every pattern will apply to your case, but knowi
 
 ---
 
-> **Tip:** A pattern needs at least 3 instances to be compelling. Two is a coincidence. Three is a pattern. Five is undeniable.
+> **Tip:** Repetition may be relevant, but no fixed count proves a legal pattern. Assess dated sources, context, contrary evidence, and reasonable alternative explanations.
