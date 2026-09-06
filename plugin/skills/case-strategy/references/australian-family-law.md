@@ -1,57 +1,61 @@
-# Australian Family Law — Quick Reference for Case Strategy
+# Australian Family Law — Current Quick Reference
 
-## Best Interests Test (s60CC)
+> **General information only — not legal advice.** Reviewed 7 September 2026 against the [current Family Law Act 1975](https://www.legislation.gov.au/C2004A00275/latest/text) and the Attorney-General's Department's [children and family law guidance](https://www.ag.gov.au/families-and-marriage/children-and-family-law). Family law changes over time and transitional rules may affect older proceedings or orders. Check the current Act and obtain advice from a qualified Australian family lawyer before relying on this reference.
 
-Primary considerations:
-1. Benefit of meaningful relationship with BOTH parents — s60CC(2)(a)
-2. Protection from harm (violence, abuse, neglect) — s60CC(2)(b)
+## Best interests of the child — ss 60CA and 60CC
 
-Key additional considerations for strategy:
-- s60CC(3)(a) — Child's views and what influenced them (challenge if alienation suspected)
-- s60CC(3)(c) — Willingness to facilitate relationship (critical if contact blocked)
-- s60CC(3)(i) — Family violence (but court not bound by AVOs/DVOs)
+The child's best interests are the paramount consideration when a court decides whether to make a parenting order.
 
-## Equal Shared Parental Responsibility (s61DA)
+Section 60CC now contains one list of **general considerations**. The court must consider:
 
-Presumption applies unless abuse/family violence grounds exist. False allegations are designed to rebut this presumption — document them thoroughly.
+1. what arrangements would promote the safety of the child and each person caring for the child, including safety from family violence, abuse, neglect or other harm
+2. any views expressed by the child
+3. the child's developmental, psychological, emotional and cultural needs
+4. the capacity of each person who has or is proposed to have parental responsibility to meet those needs
+5. the benefit to the child of relationships with parents and other significant people, where it is safe
+6. anything else relevant to the child's particular circumstances.
 
-If presumption applies → court must consider equal time or substantial and significant time (s65DAA).
+When considering safety, the court must include any history of family violence, abuse or neglect and any relevant family violence order. For an Aboriginal or Torres Strait Islander child, s60CC(3) also requires consideration of the child's right to enjoy their culture and the likely impact of a proposed order on that right.
 
-## Variation Test — Rice v Asplund (1979)
+The former division between “primary” and “additional” considerations no longer applies.
 
-Must show significant change in circumstances. Key arguments:
-- Orders not being complied with
-- Recommendations not implemented (e.g., family therapy ordered but never done)
-- New information not available at time of original orders
-- Child's relationship deteriorated without justification
-- Alienation evidence not fully tested
+## Parental responsibility and major long-term decisions — ss 61B–61DAA
 
-For consent orders specifically:
-- Consent was not truly informed
-- Client was pressured (rushed timeline, inadequate advice)
-- Evidence was never cross-examined
-- Conditional terms were never met
+- **Parental responsibility** means the duties, powers, responsibilities and authority parents have in relation to children (s61B).
+- Each parent of a child under 18 has parental responsibility, subject to any court order (s61C). This does **not** create a presumption for the court to apply when making parenting orders.
+- If it is safe and subject to court orders, parents are encouraged to consult each other about major long-term issues and treat the child's best interests as paramount (s61CA).
+- A parenting order may provide for joint or sole decision-making about all or specified major long-term issues (s61D).
+- If an order provides for joint decision-making, each person must consult the others and make a genuine effort to reach a joint decision, unless the order says otherwise (s61DAA).
 
-## Key Case Law
+The former presumption of equal shared parental responsibility was repealed with effect from 6 May 2024. There is no linked requirement to consider equal time or substantial and significant time. Decision-making responsibility and time arrangements are separate questions; there is no presumption about which arrangement is best, and the child's particular circumstances govern.
 
-| Case | Principle | Use When |
-|------|-----------|----------|
-| Rice v Asplund (1979) | Significant change threshold for variation | Filing variation application |
-| CDJ v VAJ (1998) | Best interests paramount | Framing any argument |
-| McCall & Clark (2009) | Investigate source of child's refusal | Child refusing contact |
-| Maluka & Maluka (2011) | Caution re child's wishes if influenced | Alienation indicators present |
-| Goode & Goode (2006) | Equal time not a right, must be practicable | Arguing for more time |
-| Mazorski & Albright (2007) | Unfollowed recommendations = change in circumstances | Therapy/recommendations not implemented |
+## Reconsidering final parenting orders — s65DAAA
 
-## Costs (s117)
+The threshold historically associated with *Rice & Asplund* is now set out in s65DAAA. If a final parenting order is in force, the court must not reconsider it unless:
 
-Can be ordered against party who: made false allegations, failed to comply with orders, acted unreasonably, prolonged proceedings unnecessarily.
+1. the court has considered whether circumstances have changed significantly since the final order; and
+2. the court is satisfied that reconsideration is in the child's best interests in all the circumstances, taking any significant change into account.
 
-## Alienation in the Act
+The court may consider any relevant matter, including:
 
-No specific provision but captured through:
-- s60CC(3)(c) — failure to facilitate relationship
-- s60CC(3)(a) — influenced child's views
-- s60CC(2)(a) — undermining meaningful relationship
+- the reasons and material supporting the existing order
+- material unavailable when that order was made
+- the likelihood that reconsideration would produce a new order that significantly affects the existing order
+- possible benefit or detriment to the child from reconsideration.
 
-Look for in expert reports: adult language in child's statements, loyalty conflicts, conditional recommendations, professional observations about programming.
+The court may also reconsider the order with the agreement or consent of all parties to it. Whether the statutory threshold is met depends on the facts; do not assume a particular event will be enough.
+
+## Family violence — s4AB
+
+Section 4AB defines family violence as violent, threatening or other behaviour that coerces or controls a family member or causes that person to be fearful. Its non-exhaustive examples include assault, sexual abuse, stalking, repeated derogatory taunts, property damage, harm to animals, economic or financial abuse, isolation and unlawful deprivation of liberty. A child is exposed to family violence if the child sees or hears it or otherwise experiences its effects.
+
+When documenting a safety concern, distinguish an allegation from an established fact, identify its source, and record the relevant conduct and impact without assuming motive.
+
+## Neutral case preparation
+
+Use dated, source-linked facts. Where a child's relationship with a parent or significant person is difficult, record observable events, the child's expressed views, relevant professional material and any safety information. Avoid diagnosing a child or parent, attributing motives without evidence, or treating labels such as “alienation” as proof. The court applies the current s60CC factors to the evidence in the child's particular circumstances.
+
+## Official sources
+
+- [Family Law Act 1975 — latest text](https://www.legislation.gov.au/C2004A00275/latest/text)
+- [Attorney-General's Department — Children and family law](https://www.ag.gov.au/families-and-marriage/children-and-family-law)
