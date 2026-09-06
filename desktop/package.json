@@ -9,7 +9,8 @@
     "dist": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^31.0.0"
+    "electron": "^44.2.0",
+    "electron-builder": "^26.15.3"
   },
   "build": {
     "appId": "org.familycourtstrategist.app",
