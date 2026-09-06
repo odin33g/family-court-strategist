@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, writeFileSync, mkdirSync } from "node:fs";
+import { mkdtempSync, writeFileSync, mkdirSync, symlinkSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { buildCaseModel } from "../lib/vault.js";
@@ -58,4 +58,44 @@ test("flags an empty vault", () => {
   const model = buildCaseModel(dir);
   assert.equal(model.empty, true);
   assert.equal(model.timeline.length, 0);
+});
+
+test("returns an empty model when the vault is missing", () => {
+  const parent = mkdtempSync(join(tmpdir(), "missing-vault-"));
+  const model = buildCaseModel(join(parent, "does-not-exist"));
+
+  assert.equal(model.empty, true);
+  assert.deepEqual(model.stats, {
+    documentsAnalysed: 0,
+    openContradictions: 0,
+    patternsTracked: 0,
+    timelineEvents: 0,
+  });
+  assert.deepEqual(model.timeline, []);
+  assert.deepEqual(model.people, []);
+  assert.deepEqual(model.patterns, []);
+});
+
+test("does not follow directory symlinks within or outside the vault", (t) => {
+  const vault = makeVault();
+  const outside = mkdtempSync(join(tmpdir(), "outside-vault-"));
+  writeFileSync(
+    join(outside, "outside.md"),
+    "---\ndate: 2025-01-01\ntype: incident\nevent_id: OUTSIDE\n---\n# Outside note\n"
+  );
+
+  try {
+    symlinkSync(vault, join(vault, "timeline", "cycle"), "dir");
+    symlinkSync(outside, join(vault, "outside"), "dir");
+  } catch (error) {
+    if (["EPERM", "EACCES", "ENOSYS"].includes(error.code)) {
+      t.skip(`directory symlinks unavailable: ${error.code}`);
+      return;
+    }
+    throw error;
+  }
+
+  const model = buildCaseModel(vault);
+  assert.equal(model.stats.timelineEvents, 2);
+  assert.equal(model.timeline.some((event) => event.eventId === "OUTSIDE"), false);
 });

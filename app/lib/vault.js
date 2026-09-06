@@ -1,15 +1,28 @@
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { lstatSync, readdirSync, readFileSync } from "node:fs";
 import { join, basename } from "node:path";
 import { parseFrontmatter } from "./frontmatter.js";
 
 function walk(dir) {
   const out = [];
-  for (const entry of readdirSync(dir)) {
+  let entries;
+  try {
+    entries = readdirSync(dir);
+  } catch {
+    return out;
+  }
+
+  for (const entry of entries) {
     if (entry.startsWith(".")) continue; // skip .obsidian, .git
     const full = join(dir, entry);
-    const st = statSync(full);
+    let st;
+    try {
+      st = lstatSync(full);
+    } catch {
+      continue;
+    }
+    if (st.isSymbolicLink()) continue;
     if (st.isDirectory()) out.push(...walk(full));
-    else if (entry.endsWith(".md")) out.push(full);
+    else if (st.isFile() && entry.endsWith(".md")) out.push(full);
   }
   return out;
 }
@@ -27,9 +40,13 @@ function asArray(v) {
 
 export function buildCaseModel(vaultDir) {
   const files = walk(vaultDir);
-  const notes = files.map((f) => {
-    const { data, body } = parseFrontmatter(readFileSync(f, "utf8"));
-    return { file: f, data, body, title: firstHeading(body) || basename(f, ".md") };
+  const notes = files.flatMap((f) => {
+    try {
+      const { data, body } = parseFrontmatter(readFileSync(f, "utf8"));
+      return [{ file: f, data, body, title: firstHeading(body) || basename(f, ".md") }];
+    } catch {
+      return [];
+    }
   });
 
   const timeline = notes
