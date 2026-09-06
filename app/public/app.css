@@ -34,7 +34,10 @@ body{font-family:var(--ui);background:var(--bg);color:var(--ink);-webkit-font-sm
 .logo .mk{width:30px;height:30px;border-radius:8px;background:oklch(100% 0 0/.08);border:1px solid oklch(100% 0 0/.12);display:grid;place-items:center;color:var(--gold)}
 .logo b{font-family:var(--disp);font-weight:600;font-size:14.5px;color:#fff;letter-spacing:-.01em;line-height:1.1}
 .logo span{font-size:10.5px;color:oklch(78% .02 258)}
-.case-switch{margin:4px 4px 10px;background:oklch(100% 0 0/.06);border:1px solid oklch(100% 0 0/.10);border-radius:10px;padding:9px 11px;cursor:pointer}
+.case-switch{display:block;width:calc(100% - 8px);margin:4px 4px 10px;background:oklch(100% 0 0/.06);border:1px solid oklch(100% 0 0/.10);border-radius:10px;padding:9px 11px;cursor:pointer;font:inherit;text-align:left}
+.case-switch:hover{background:oklch(100% 0 0/.10);border-color:oklch(100% 0 0/.18)}
+.case-switch:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.case-switch:disabled{cursor:wait;opacity:.7}
 .case-switch .lbl{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:oklch(74% .02 258)}
 .case-switch .nm{font-size:12.5px;font-weight:600;color:#fff;display:flex;align-items:center;justify-content:space-between;margin-top:2px;gap:8px}
 .navlbl{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:oklch(68% .02 258);padding:12px 10px 5px}

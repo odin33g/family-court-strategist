@@ -15,7 +15,7 @@
   "build": {
     "appId": "org.familycourtstrategist.app",
     "productName": "Family Court Strategist",
-    "files": ["main.cjs"],
+    "files": ["main.cjs", "preload.cjs"],
     "extraResources": [
       { "from": "../app", "to": "app", "filter": ["**/*", "!tests/**", "!**/*.test.js"] },
       { "from": "../sample-case", "to": "sample-case" }

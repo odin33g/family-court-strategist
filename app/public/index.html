@@ -16,12 +16,12 @@
       <div class="mk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M5 7l7-3 7 3M5 7l-2 6a4 4 0 008 0L5 7zm14 0l-2 6a4 4 0 008 0l-6-6z" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <div><b>Strategist</b><span>Case workspace</span></div>
     </div>
-    <div class="case-switch">
-      <div class="lbl">Current matter</div>
-      <div class="nm"><span id="case-name">Loading…</span>
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-    </div>
+    <button class="case-switch" id="current-matter" type="button" aria-label="Current matter. Choose a different case folder.">
+      <span class="lbl">Current matter</span>
+      <span class="nm"><span id="case-name">Loading…</span>
+        <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </button>
 
     <div class="navlbl">Overview</div>
     <div class="nav on" data-view="dashboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>Dashboard</div>

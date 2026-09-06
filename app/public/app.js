@@ -167,6 +167,32 @@ function askClaude() {
   });
 }
 
+async function chooseCurrentMatter() {
+  const chooseFolder = window.strategistDesktop?.chooseCaseFolder;
+  if (typeof chooseFolder !== "function") {
+    openModal(`
+      <h2 class="modal-title">Choose a case folder in the desktop app</h2>
+      <p class="modal-p">A web browser cannot safely choose a folder for this local workspace.</p>
+      <p class="modal-p">Open <b>Family Court Strategist</b> on your computer, then click its <b>Current matter</b> button or choose <b>File → Open Case Folder…</b>.</p>`);
+    return;
+  }
+
+  const button = $("current-matter");
+  button.disabled = true;
+  button.setAttribute("aria-busy", "true");
+  try {
+    const changed = await chooseFolder();
+    if (changed) window.location.reload();
+  } catch {
+    openModal(`
+      <h2 class="modal-title">Could not open the folder chooser</h2>
+      <p class="modal-p">Try <b>File → Open Case Folder…</b> from the desktop app menu.</p>`);
+  } finally {
+    button.disabled = false;
+    button.removeAttribute("aria-busy");
+  }
+}
+
 /* ---------- Document Studio: chronology → print/PDF ---------- */
 
 function generateChronology() {
@@ -192,6 +218,7 @@ function generateChronology() {
 
 function bind() {
   document.querySelectorAll(".nav").forEach((n) => n.addEventListener("click", () => go(n.dataset.view)));
+  $("current-matter").addEventListener("click", chooseCurrentMatter);
   $("ask-claude").addEventListener("click", askClaude);
   $("modal-x").addEventListener("click", closeModal);
   $("modal-back").addEventListener("click", (e) => { if (e.target === $("modal-back")) closeModal(); });
@@ -218,6 +245,7 @@ function filterTimeline(q) {
 
 function applyChrome(m) {
   $("case-name").textContent = m.caseName || "Case";
+  $("current-matter").setAttribute("aria-label", `Current matter: ${m.caseName || "Case"}. Choose a different case folder.`);
   $("case-court").textContent = m.court || "local vault";
   $("count-timeline").textContent = m.stats.timelineEvents;
   $("count-evidence").textContent = m.evidence.length;

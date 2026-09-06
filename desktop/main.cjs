@@ -1,4 +1,4 @@
-const { app, BrowserWindow, dialog, Menu, shell } = require("electron");
+const { app, BrowserWindow, dialog, ipcMain, Menu, shell } = require("electron");
 const { join } = require("node:path");
 const { pathToFileURL } = require("node:url");
 const { readFileSync, writeFileSync, existsSync } = require("node:fs");
@@ -23,24 +23,65 @@ function saveVault(v) {
 
 let currentVault = loadVault() || sampleCase;
 let win = null;
+let serverPort = null;
 
-async function pickFolder() {
-  const r = await dialog.showOpenDialog(win, {
+function liveWindow() {
+  return win && !win.isDestroyed() ? win : null;
+}
+
+async function pickFolder(reloadWindow = true) {
+  const parent = liveWindow();
+  const options = {
     title: "Choose your case vault folder",
     message: "Pick the folder that holds your Family Court Strategist vault.",
     properties: ["openDirectory", "createDirectory"],
-  });
+  };
+  const r = parent
+    ? await dialog.showOpenDialog(parent, options)
+    : await dialog.showOpenDialog(options);
   if (!r.canceled && r.filePaths[0]) {
     currentVault = r.filePaths[0];
     saveVault(currentVault);
-    if (win) win.reload();
+    if (reloadWindow) liveWindow()?.reload();
+    return true;
   }
+  return false;
 }
 
 function useSample() {
   currentVault = sampleCase;
   saveVault(currentVault);
-  if (win) win.reload();
+  liveWindow()?.reload();
+}
+
+function createWindow() {
+  const browserWindow = new BrowserWindow({
+    width: 1240,
+    height: 840,
+    minWidth: 900,
+    minHeight: 600,
+    title: "Family Court Strategist",
+    backgroundColor: "#1a2740",
+    titleBarStyle: process.platform === "darwin" ? "hiddenInset" : "default",
+    webPreferences: {
+      contextIsolation: true,
+      nodeIntegration: false,
+      preload: join(__dirname, "preload.cjs"),
+    },
+  });
+
+  win = browserWindow;
+  browserWindow.on("closed", () => {
+    if (win === browserWindow) win = null;
+  });
+
+  browserWindow.webContents.setWindowOpenHandler(({ url }) => {
+    if (url.startsWith("http://127.0.0.1")) return { action: "allow" };
+    shell.openExternal(url);
+    return { action: "deny" };
+  });
+
+  browserWindow.loadURL(`http://127.0.0.1:${serverPort}`);
 }
 
 function buildMenu() {
@@ -79,29 +120,24 @@ app.whenReady().then(async () => {
   const { createServer } = await import(pathToFileURL(serverPath).href);
   const server = createServer(() => currentVault); // dynamic vault path
   await new Promise((r) => server.listen(0, "127.0.0.1", r));
-  const port = server.address().port;
+  serverPort = server.address().port;
 
-  win = new BrowserWindow({
-    width: 1240,
-    height: 840,
-    minWidth: 900,
-    minHeight: 600,
-    title: "Family Court Strategist",
-    backgroundColor: "#1a2740",
-    titleBarStyle: process.platform === "darwin" ? "hiddenInset" : "default",
-    webPreferences: { contextIsolation: true, nodeIntegration: false },
+  ipcMain.handle("vault:choose-folder", (event) => {
+    const currentWindow = liveWindow();
+    if (
+      !currentWindow
+      || event.sender !== currentWindow.webContents
+      || event.senderFrame !== currentWindow.webContents.mainFrame
+    ) return false;
+    return pickFolder(false);
   });
 
-  win.webContents.setWindowOpenHandler(({ url }) => {
-    if (url.startsWith("http://127.0.0.1")) return { action: "allow" };
-    shell.openExternal(url);
-    return { action: "deny" };
-  });
-
-  win.loadURL(`http://127.0.0.1:${port}`);
+  createWindow();
   buildMenu();
 
-  app.on("activate", () => { if (BrowserWindow.getAllWindows().length === 0) win.show(); });
+  app.on("activate", () => {
+    if (BrowserWindow.getAllWindows().length === 0) createWindow();
+  });
 });
 
 app.on("window-all-closed", () => { if (process.platform !== "darwin") app.quit(); });
