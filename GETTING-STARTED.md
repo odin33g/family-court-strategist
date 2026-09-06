@@ -40,6 +40,8 @@ You select your case folder, and you can say things like "set up my case" and Cl
 
 The plugin is what makes Claude think like a legal strategist instead of a general assistant. Without it, Claude is smart but doesn't know the methodology. With it, Claude knows exactly what to look for, how to cross-reference, and how to build your case.
 
+**Privacy note:** The vault and local app keep your files on your computer. If you use the plugin or paste or upload case content to Claude, that content is sent to Claude and processed under your Claude account and provider policies. Only share material you are comfortable giving to that service.
+
 ### The thing that makes this different
 
 This isn't a note-taking app or a filing system. It's a **methodology** — a 13-point forensic protocol, a contradiction engine, coincidence mapping, lawyer accountability framework, and attribution standards — all developed through 18 months of real court proceedings. Every part of it exists because something went wrong without it.
@@ -143,6 +145,7 @@ This system helps you:
 - This is a case organisation and analysis tool, not legal advice
 - Always seek independent legal advice for major decisions
 - Based on Australian family law but the methodology works in any jurisdiction
+- The vault and local app are local-only; content shared with Claude is processed under your Claude account and provider policies
 - The system is only as strong as the evidence you put into it
 
 ---

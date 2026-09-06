@@ -69,7 +69,7 @@ function statCard(k, v, d, color) {
     <div class="v"${color ? ` style="color:${color}"` : ""}>${v}</div><div class="d neu">${d}</div></div>`;
 }
 function evidenceRows(items) {
-  if (!items.length) return `<tr><td colspan="3" class="empty">Evidence-matrix parsing arrives in v2. For now, edit EVIDENCE-MATRIX.md in your vault and it will appear here.</td></tr>`;
+  if (!items.length) return `<tr><td colspan="3" class="empty">Evidence-matrix display is not available in this version. You can still open and edit <code>EVIDENCE-MATRIX.md</code> directly in your vault.</td></tr>`;
   return items.map((r) => `<tr><td class="claim">${esc(r.claim)}<div class="src">${esc(r.source)}</div></td>
     <td><span class="pill ${STATUS_CLASS[r.status] || "unres"}">${titleCase(r.status)}</span></td><td>${stars(r.strength)}</td></tr>`).join("");
 }
@@ -152,11 +152,12 @@ function askClaude() {
   const prompt = "Using my Family Court Strategist vault in this folder, analyse the most recent document I add and update the timeline, evidence matrix, and patterns. Flag any contradictions.";
   openModal(`
     <h2 class="modal-title">Ask Claude — side by side</h2>
-    <p class="modal-p">In this version, the analysis runs in your <b>Claude desktop / Cowork</b> session, working on the same vault files. This app shows the results live. (In-app AI buttons arrive in a later version.)</p>
+    <p class="modal-p">In this version, the analysis runs in your <b>Claude desktop / Cowork</b> session, working on the same vault files. Refresh this app to see supported vault updates. Evidence-matrix display and in-app AI buttons arrive in a later version.</p>
+    <p class="modal-p"><b>Privacy:</b> Content you share with Claude is sent to Claude and processed under your Claude account and provider policies. The local app itself does not upload your case files.</p>
     <ol class="modal-steps">
       <li>Open the Claude desktop app with this case folder as your workspace.</li>
       <li>Paste the starter prompt below, or just say <i>"set up my case"</i> / <i>"analyse this".</i></li>
-      <li>Come back here and refresh — your timeline and matrix update.</li>
+      <li>Come back here and refresh to see supported updates such as new timeline entries.</li>
     </ol>
     <div class="prompt-box"><code id="starter">${esc(prompt)}</code></div>
     <button class="btn" id="copy-prompt">Copy starter prompt</button>`);
